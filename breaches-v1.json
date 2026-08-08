@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "generated": "2026-08-08",
+  "signature": "",
+  "breaches": [
+    {"name": "AdobeBreach2025", "date": "2025-10-15", "count": 15300000, "domain": "adobe.com"},
+    {"name": "Collection1", "date": "2019-01-07", "count": 772904991, "domain": ""},
+    {"name": "Dropbox2025", "date": "2025-06-20", "count": 70000000, "domain": "dropbox.com"},
+    {"name": "LinkedIn2024", "date": "2024-06-22", "count": 70042081, "domain": "linkedin.com"},
+    {"name": "MyFitnessPal2024", "date": "2024-03-14", "count": 144000000, "domain": "myfitnesspal.com"},
+    {"name": "Canva2024", "date": "2024-05-24", "count": 139000000, "domain": "canva.com"},
+    {"name": "TwitterX2025", "date": "2025-01-05", "count": 200000000, "domain": "twitter.com"},
+    {"name": "Wattpad2025", "date": "2025-04-15", "count": 270000000, "domain": "wattpad.com"},
+    {"name": "EsteeLauder2025", "date": "2025-02-11", "count": 440000000, "domain": "estee.com"},
+    {"name": "Facebook2025", "date": "2025-04-03", "count": 533000000, "domain": "facebook.com"},
+    {"name": "LinkedIn2023", "date": "2023-06-22", "count": 70042081, "domain": "linkedin.com"},
+    {"name": "Adobe2019", "date": "2019-10-26", "count": 76000000, "domain": "adobe.com"},
+    {"name": "Dubsmash2019", "date": "2019-12-14", "count": 16200000, "domain": "dubsmash.com"},
+    {"name": "MyHeritage2019", "date": "2019-06-04", "count": 92000000, "domain": "myheritage.com"},
+    {"name": "500px2020", "date": "2020-03-09", "count": 14800000, "domain": "500px.com"},
+    {"name": "Tokopedia2020", "date": "2020-05-14", "count": 91000000, "domain": "tokopedia.com"},
+    {"name": "ZoomInfo2020", "date": "2020-04-09", "count": 17000000, "domain": "zoominfo.com"},
+    {"name": "EmbassyEmails2020", "date": "2020-03-13", "count": 1000000, "domain": ""},
+    {"name": "Telekom2020", "date": "2020-03-01", "count": 38000000, "domain": "telekom.de"},
+    {"name": "Wishbone2020", "date": "2020-03-15", "count": 9000000, "domain": "wishboneapp.com"},
+    {"name": "MGMResorts2025", "date": "2025-07-19", "count": 142000000, "domain": "mgmresorts.com"},
+    {"name": "Twitch2025", "date": "2025-06-22", "count": 135000000, "domain": "twitch.tv"},
+    {"name": "Pinterest2025", "date": "2025-05-10", "count": 82000000, "domain": "pinterest.com"},
+    {"name": "GitLab2025", "date": "2025-04-18", "count": 44000000, "domain": "gitlab.com"},
+    {"name": "Spotify2025", "date": "2025-07-03", "count": 350000000, "domain": "spotify.com"}
+  ],
+  "emailPrefixes": {}
+}
