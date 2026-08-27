@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 5,
   "deltaFrom": 1,
   "timestamp": 1787864151578,
-  "description": "v3 feed — real ClamAV Android signatures + expanded threat data",
+  "description": "v5 feed — 173 Android patterns + 185 SHA-256 hashes in-feed, 369,659 MD5 hashes via separate DB",
   "addMalwarePackages": [
     {
       "packageName": "com.android.systemupdate",
@@ -853,1910 +853,3420 @@
   "removeTrackerPackages": [],
   "removeHarvestSdkPatterns": [],
   "removeHarvestPermissionCombos": [],
-  "sig_ed25519": "XDCFbn35LFP0Kr9Z4GTLark0O+Nb+NPA9mXIql7jrRmROFrGW9XYGYperBuHzYV38HkpETFlqRK6pwuF6VH/Dg==",
+  "sig_ed25519": "mQyw73+Nfqfm51s6GrIkvn8XO/Q79eukvRWXdFF905iquBoKfRLwtV8m+Jh4pmIaJHXhQJlIUIhzTlwqQEwYDg==",
   "addClamAVSignatures": [
     {
       "signatureName": "Andr.Spyware.iSpyoo-6993312-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Spyware.iSpyoo-6993312-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "spyware",
-      "description": "ClamAV Android Spyware: iSpyoo",
-      "source": "clamav_daily"
+      "description": "ClamAV Android Spyware: iSpyoo"
     },
     {
       "signatureName": "Andr.Spyware.Reptilicus-6993761-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Spyware.Reptilicus-6993761-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "spyware",
-      "description": "ClamAV Android Spyware: Reptilicus",
-      "source": "clamav_daily"
+      "description": "ClamAV Android Spyware: Reptilicus"
     },
     {
       "signatureName": "Andr.Spyware.Catwatchful-7001116-2",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Spyware.Catwatchful-7001116-2",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "spyware",
-      "description": "ClamAV Android Spyware: Catwatchful",
-      "source": "clamav_daily"
+      "description": "ClamAV Android Spyware: Catwatchful"
     },
     {
       "signatureName": "Andr.Spyware.CatwatchfulClient-7001117-2",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Spyware.CatwatchfulClient-7001117-2",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "spyware",
-      "description": "ClamAV Android Spyware: CatwatchfulClient",
-      "source": "clamav_daily"
+      "description": "ClamAV Android Spyware: CatwatchfulClient"
     },
     {
       "signatureName": "Andr.Spyware.AppSpy-7010907-1",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Spyware.AppSpy-7010907-1",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "spyware",
-      "description": "ClamAV Android Spyware: AppSpy",
-      "source": "clamav_daily"
+      "description": "ClamAV Android Spyware: AppSpy"
     },
     {
       "signatureName": "Andr.Spyware.Xnspy-7156164-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Spyware.Xnspy-7156164-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "spyware",
-      "description": "ClamAV Android Spyware: Xnspy",
-      "source": "clamav_daily"
+      "description": "ClamAV Android Spyware: Xnspy"
     },
     {
       "signatureName": "Andr.Spyware.BXAQ-7156174-1",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Spyware.BXAQ-7156174-1",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "spyware",
-      "description": "ClamAV Android Spyware: BXAQ",
-      "source": "clamav_daily"
+      "description": "ClamAV Android Spyware: BXAQ"
     },
     {
       "signatureName": "Andr.Spyware.Spymaster-7156225-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Spyware.Spymaster-7156225-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "spyware",
-      "description": "ClamAV Android Spyware: Spymaster",
-      "source": "clamav_daily"
+      "description": "ClamAV Android Spyware: Spymaster"
     },
     {
       "signatureName": "Andr.Spyware.Onespy-7157426-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Spyware.Onespy-7157426-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "spyware",
-      "description": "ClamAV Android Spyware: Onespy",
-      "source": "clamav_daily"
+      "description": "ClamAV Android Spyware: Onespy"
     },
     {
       "signatureName": "Andr.Spyware.Talklog-7157187-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Spyware.Talklog-7157187-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "spyware",
-      "description": "ClamAV Android Spyware: Talklog",
-      "source": "clamav_daily"
+      "description": "ClamAV Android Spyware: Talklog"
     },
     {
       "signatureName": "Andr.Spyware.Talklog-7157194-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Spyware.Talklog-7157194-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "spyware",
-      "description": "ClamAV Android Spyware: Talklog",
-      "source": "clamav_daily"
+      "description": "ClamAV Android Spyware: Talklog"
     },
     {
       "signatureName": "Andr.Trojan.Moonshine-7181476-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.Moonshine-7181476-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: Moonshine",
-      "source": "clamav_daily"
+      "description": "ClamAV Android Trojan: Moonshine"
     },
     {
       "signatureName": "Andr.Trojan.Moonshine-7181489-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.Moonshine-7181489-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: Moonshine",
-      "source": "clamav_daily"
+      "description": "ClamAV Android Trojan: Moonshine"
     },
     {
       "signatureName": "Andr.Trojan.Moonshine-7181506-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.Moonshine-7181506-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: Moonshine",
-      "source": "clamav_daily"
+      "description": "ClamAV Android Trojan: Moonshine"
     },
     {
       "signatureName": "Andr.Trojan.Moonshine-7181507-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.Moonshine-7181507-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: Moonshine",
-      "source": "clamav_daily"
+      "description": "ClamAV Android Trojan: Moonshine"
     },
     {
       "signatureName": "Andr.Trojan.WolfRAT-7793037-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.WolfRAT-7793037-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: WolfRAT",
-      "source": "clamav_daily"
+      "description": "ClamAV Android Trojan: WolfRAT"
     },
     {
       "signatureName": "Andr.Trojan.Donot-9778202-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.Donot-9778202-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: Donot",
-      "source": "clamav_daily"
+      "description": "ClamAV Android Trojan: Donot"
     },
     {
       "signatureName": "Andr.Trojan.Donot-9778203-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.Donot-9778203-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: Donot",
-      "source": "clamav_daily"
+      "description": "ClamAV Android Trojan: Donot"
     },
     {
       "signatureName": "Andr.Trojan.Donot-9778204-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.Donot-9778204-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: Donot",
-      "source": "clamav_daily"
+      "description": "ClamAV Android Trojan: Donot"
     },
     {
       "signatureName": "Andr.Trojan.Donot-9781233-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.Donot-9781233-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: Donot",
-      "source": "clamav_daily"
+      "description": "ClamAV Android Trojan: Donot"
     },
     {
       "signatureName": "Andr.Trojan.Donot-9792464-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.Donot-9792464-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: Donot",
-      "source": "clamav_daily"
+      "description": "ClamAV Android Trojan: Donot"
     },
     {
       "signatureName": "Andr.Spyware.AndroRat-9858878-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Spyware.AndroRat-9858878-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "spyware",
-      "description": "ClamAV Android Spyware: AndroRat",
-      "source": "clamav_daily"
+      "description": "ClamAV Android Spyware: AndroRat"
     },
     {
       "signatureName": "Andr.Trojan.AndroSpy-9900225-1",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.AndroSpy-9900225-1",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: AndroSpy",
-      "source": "clamav_daily"
+      "description": "ClamAV Android Trojan: AndroSpy"
     },
     {
       "signatureName": "Andr.Trojan.FakeTelegram-6736160-3",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.FakeTelegram-6736160-3",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: FakeTelegram",
-      "source": "clamav_daily"
+      "description": "ClamAV Android Trojan: FakeTelegram"
     },
     {
       "signatureName": "Andr.Trojan.AridViper-9994569-1",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.AridViper-9994569-1",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: AridViper",
-      "source": "clamav_daily"
+      "description": "ClamAV Android Trojan: AridViper"
     },
     {
       "signatureName": "Andr.Malware.FlexStarling-10026224-1",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Malware.FlexStarling-10026224-1",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "malware",
-      "description": "ClamAV Android Malware: FlexStarling",
-      "source": "clamav_daily"
+      "description": "ClamAV Android Malware: FlexStarling"
     },
     {
       "signatureName": "Andr.Loader.GravityRat-10029817-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Loader.GravityRat-10029817-0",
-      "fileSize": 0,
       "fileType": "APK",
-      "severity": "medium",
+      "severity": "high",
       "family": "loader",
-      "description": "ClamAV Android Loader: GravityRat",
-      "source": "clamav_daily"
+      "description": "ClamAV Android Loader: GravityRat"
     },
     {
       "signatureName": "Andr.Ransomware.Medusa-10033530-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Ransomware.Medusa-10033530-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "ransomware",
-      "description": "ClamAV Android Ransomware: Medusa",
-      "source": "clamav_daily"
+      "description": "ClamAV Android Ransomware: Medusa"
     },
     {
       "signatureName": "Andr.Trojan.Necro-10036504-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.Necro-10036504-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: Necro",
-      "source": "clamav_daily"
+      "description": "ClamAV Android Trojan: Necro"
     },
     {
       "signatureName": "Andr.Trojan.MysteryBot-6671617-0:0:0:6465780a303335*687474703a2f2f38392e34322e3231312e32342f736974652f*687474703a2f2f39342e3133302e302e3130392f696e6a2e7a6970",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.MysteryBot-6671617-0:0:0:6465780a303335*687474703a2f2f38392e34322e3231312e32342f736974652f*687474703a2f2f39342e3133302e302e3130392f696e6a2e7a6970",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: MysteryBot",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: MysteryBot"
     },
     {
       "signatureName": "Andr.Trojan.Anubis-6692604-3:0:*:6465780a3033*4572726f722073656e64696e6720534d532c206d6179626520746865726520617265206e6f207065726d697373696f6e20746f2073656e6421",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.Anubis-6692604-3:0:*:6465780a3033*4572726f722073656e64696e6720534d532c206d6179626520746865726520617265206e6f207065726d697373696f6e20746f2073656e6421",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: Anubis",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: Anubis"
     },
     {
       "signatureName": "Andr.Trojan.Gustuff-7349550-0:7:0:7369676e61747572652d76657273696f6e3a*616e64726f69646d616e69666573742e786d6c*6e616d653a20636c617369632f617274697374732e6462*6e616d653a20636c617369632f6d757369632e6d3375",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.Gustuff-7349550-0:7:0:7369676e61747572652d76657273696f6e3a*616e64726f69646d616e69666573742e786d6c*6e616d653a20636c617369632f617274697374732e6462*6e616d653a20636c617369632f6d757369632e6d3375",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: Gustuff",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: Gustuff"
     },
     {
       "signatureName": "Andr.Trojan.Xamaria-6683921-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.Xamaria-6683921-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: Xamaria",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: Xamaria"
     },
     {
       "signatureName": "Andr.Trojan.HummingWhale-5747326-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.HummingWhale-5747326-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: HummingWhale",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: HummingWhale"
     },
     {
       "signatureName": "Andr.Trojan.HummingWhale-5747329-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.HummingWhale-5747329-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: HummingWhale",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: HummingWhale"
     },
     {
       "signatureName": "Andr.Trojan.HummingWhale-5747330-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.HummingWhale-5747330-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: HummingWhale",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: HummingWhale"
     },
     {
       "signatureName": "Andr.Trojan.HummingWhale-5747332-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.HummingWhale-5747332-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: HummingWhale",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: HummingWhale"
     },
     {
       "signatureName": "Andr.Trojan.HummingWhale-5747333-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.HummingWhale-5747333-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: HummingWhale",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: HummingWhale"
     },
     {
       "signatureName": "Andr.Trojan.HummingWhale-5747334-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.HummingWhale-5747334-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: HummingWhale",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: HummingWhale"
     },
     {
       "signatureName": "Andr.Trojan.HummingWhale-5747335-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.HummingWhale-5747335-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: HummingWhale",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: HummingWhale"
     },
     {
       "signatureName": "Andr.Trojan.HummingWhale-5747336-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.HummingWhale-5747336-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: HummingWhale",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: HummingWhale"
     },
     {
       "signatureName": "Andr.Trojan.HummingWhale-5747337-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.HummingWhale-5747337-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: HummingWhale",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: HummingWhale"
     },
     {
       "signatureName": "Andr.Trojan.HummingWhale-5747338-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.HummingWhale-5747338-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: HummingWhale",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: HummingWhale"
     },
     {
       "signatureName": "Andr.Trojan.HummingWhale-5747339-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.HummingWhale-5747339-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: HummingWhale",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: HummingWhale"
     },
     {
       "signatureName": "Andr.Trojan.HummingWhale-5747340-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.HummingWhale-5747340-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: HummingWhale",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: HummingWhale"
     },
     {
       "signatureName": "Andr.Trojan.HummingWhale-5747341-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.HummingWhale-5747341-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: HummingWhale",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: HummingWhale"
     },
     {
       "signatureName": "Andr.Trojan.HummingWhale-5747342-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.HummingWhale-5747342-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: HummingWhale",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: HummingWhale"
     },
     {
       "signatureName": "Andr.Trojan.HummingWhale-5747343-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.HummingWhale-5747343-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: HummingWhale",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: HummingWhale"
     },
     {
       "signatureName": "Andr.Trojan.HummingWhale-5747344-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.HummingWhale-5747344-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: HummingWhale",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: HummingWhale"
     },
     {
       "signatureName": "Andr.Trojan.HummingWhale-5747345-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.HummingWhale-5747345-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: HummingWhale",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: HummingWhale"
     },
     {
       "signatureName": "Andr.Trojan.HummingWhale-5747346-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.HummingWhale-5747346-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: HummingWhale",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: HummingWhale"
     },
     {
       "signatureName": "Andr.Trojan.HummingWhale-5747347-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.HummingWhale-5747347-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: HummingWhale",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: HummingWhale"
     },
     {
       "signatureName": "Andr.Trojan.HummingWhale-5747348-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.HummingWhale-5747348-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: HummingWhale",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: HummingWhale"
     },
     {
       "signatureName": "Andr.Trojan.HummingWhale-5747349-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.HummingWhale-5747349-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: HummingWhale",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: HummingWhale"
     },
     {
       "signatureName": "Andr.Trojan.HummingWhale-5747350-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.HummingWhale-5747350-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: HummingWhale",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: HummingWhale"
     },
     {
       "signatureName": "Andr.Trojan.HummingWhale-5747351-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.HummingWhale-5747351-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: HummingWhale",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: HummingWhale"
     },
     {
       "signatureName": "Andr.Trojan.HummingWhale-5747352-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.HummingWhale-5747352-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: HummingWhale",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: HummingWhale"
     },
     {
       "signatureName": "Andr.Trojan.HummingWhale-5747353-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.HummingWhale-5747353-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: HummingWhale",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: HummingWhale"
     },
     {
       "signatureName": "Andr.Trojan.HummingWhale-5747354-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.HummingWhale-5747354-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: HummingWhale",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: HummingWhale"
     },
     {
       "signatureName": "Andr.Trojan.HummingWhale-5747355-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.HummingWhale-5747355-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: HummingWhale",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: HummingWhale"
     },
     {
       "signatureName": "Andr.Trojan.HummingWhale-5747356-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.HummingWhale-5747356-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: HummingWhale",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: HummingWhale"
     },
     {
       "signatureName": "Andr.Trojan.HummingWhale-5747357-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.HummingWhale-5747357-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: HummingWhale",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: HummingWhale"
     },
     {
       "signatureName": "Andr.Trojan.HummingWhale-5747358-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.HummingWhale-5747358-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: HummingWhale",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: HummingWhale"
     },
     {
       "signatureName": "Andr.Trojan.HummingWhale-5747359-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.HummingWhale-5747359-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: HummingWhale",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: HummingWhale"
     },
     {
       "signatureName": "Andr.Trojan.HummingWhale-5747360-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.HummingWhale-5747360-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: HummingWhale",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: HummingWhale"
     },
     {
       "signatureName": "Andr.Trojan.HummingWhale-5747361-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.HummingWhale-5747361-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: HummingWhale",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: HummingWhale"
     },
     {
       "signatureName": "Andr.Trojan.HummingWhale-5747364-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.HummingWhale-5747364-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: HummingWhale",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: HummingWhale"
     },
     {
       "signatureName": "Andr.Trojan.HummingWhale-5747366-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.HummingWhale-5747366-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: HummingWhale",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: HummingWhale"
     },
     {
       "signatureName": "Andr.Trojan.HummingWhale-5747368-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.HummingWhale-5747368-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: HummingWhale",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: HummingWhale"
     },
     {
       "signatureName": "Andr.Trojan.HummingWhale-5747369-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.HummingWhale-5747369-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: HummingWhale",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: HummingWhale"
     },
     {
       "signatureName": "Andr.Trojan.HummingWhale-5747370-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.HummingWhale-5747370-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: HummingWhale",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: HummingWhale"
     },
     {
       "signatureName": "Andr.Trojan.HummingWhale-5747371-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.HummingWhale-5747371-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: HummingWhale",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: HummingWhale"
     },
     {
       "signatureName": "Andr.Trojan.HummingWhale-5747372-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.HummingWhale-5747372-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: HummingWhale",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: HummingWhale"
     },
     {
       "signatureName": "Andr.Trojan.HummingWhale-5747373-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.HummingWhale-5747373-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: HummingWhale",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: HummingWhale"
     },
     {
       "signatureName": "Andr.Trojan.HummingWhale-5747374-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.HummingWhale-5747374-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: HummingWhale",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: HummingWhale"
     },
     {
       "signatureName": "Andr.Trojan.HummingWhale-5747375-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.HummingWhale-5747375-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: HummingWhale",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: HummingWhale"
     },
     {
       "signatureName": "Andr.Adware.Judy-6328976-1",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Adware.Judy-6328976-1",
-      "fileSize": 0,
       "fileType": "APK",
-      "severity": "medium",
+      "severity": "high",
       "family": "adware",
-      "description": "ClamAV Android Adware: Judy",
-      "source": "clamav_main"
+      "description": "ClamAV Android Adware: Judy"
     },
     {
       "signatureName": "Andr.Trojan.Qysly-6328977-1",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.Qysly-6328977-1",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: Qysly",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: Qysly"
     },
     {
       "signatureName": "Andr.Trojan.RedAlert-6336840-1",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.RedAlert-6336840-1",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: RedAlert",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: RedAlert"
     },
     {
       "signatureName": "Andr.Trojan.GMBot-6441399-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.GMBot-6441399-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: GMBot",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: GMBot"
     },
     {
       "signatureName": "Andr.Trojan.GMBot-6441411-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.GMBot-6441411-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: GMBot",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: GMBot"
     },
     {
       "signatureName": "Andr.Trojan.KevDroid-6487464-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.KevDroid-6487464-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: KevDroid",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: KevDroid"
     },
     {
       "signatureName": "Andr.Trojan.Banker-6487885-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.Banker-6487885-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: Banker",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: Banker"
     },
     {
       "signatureName": "Andr.Trojan.Wroba-6487886-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.Wroba-6487886-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: Wroba",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: Wroba"
     },
     {
       "signatureName": "Andr.Trojan.Banker-6504416-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.Banker-6504416-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: Banker",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: Banker"
     },
     {
       "signatureName": "Andr.Trojan.Xamaria-6683920-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.Xamaria-6683920-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: Xamaria",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: Xamaria"
     },
     {
       "signatureName": "Andr.Malware.Svpeng-6696067-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Malware.Svpeng-6696067-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "malware",
-      "description": "ClamAV Android Malware: Svpeng",
-      "source": "clamav_main"
+      "description": "ClamAV Android Malware: Svpeng"
     },
     {
       "signatureName": "Andr.Trojan.Xamaria-6722850-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.Xamaria-6722850-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: Xamaria",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: Xamaria"
     },
     {
       "signatureName": "Andr.Ransomware.Slocker-6803766-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Ransomware.Slocker-6803766-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "ransomware",
-      "description": "ClamAV Android Ransomware: Slocker",
-      "source": "clamav_main"
+      "description": "ClamAV Android Ransomware: Slocker"
     },
     {
       "signatureName": "Andr.Malware.Wapron-6803769-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Malware.Wapron-6803769-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "malware",
-      "description": "ClamAV Android Malware: Wapron",
-      "source": "clamav_main"
+      "description": "ClamAV Android Malware: Wapron"
     },
     {
       "signatureName": "Andr.Malware.Smssend-6803811-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Malware.Smssend-6803811-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "malware",
-      "description": "ClamAV Android Malware: Smssend",
-      "source": "clamav_main"
+      "description": "ClamAV Android Malware: Smssend"
     },
     {
       "signatureName": "Andr.Ransomware.Slocker-6803814-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Ransomware.Slocker-6803814-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "ransomware",
-      "description": "ClamAV Android Ransomware: Slocker",
-      "source": "clamav_main"
+      "description": "ClamAV Android Ransomware: Slocker"
     },
     {
       "signatureName": "Andr.Malware.Qqspy-6803827-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Malware.Qqspy-6803827-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "malware",
-      "description": "ClamAV Android Malware: Qqspy",
-      "source": "clamav_main"
+      "description": "ClamAV Android Malware: Qqspy"
     },
     {
       "signatureName": "Andr.Ransomware.Slocker-6803848-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Ransomware.Slocker-6803848-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "ransomware",
-      "description": "ClamAV Android Ransomware: Slocker",
-      "source": "clamav_main"
+      "description": "ClamAV Android Ransomware: Slocker"
     },
     {
       "signatureName": "Andr.Malware.Hiddenapp-6803862-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Malware.Hiddenapp-6803862-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "malware",
-      "description": "ClamAV Android Malware: Hiddenapp",
-      "source": "clamav_main"
+      "description": "ClamAV Android Malware: Hiddenapp"
     },
     {
       "signatureName": "Andr.Ransomware.Slocker-6803885-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Ransomware.Slocker-6803885-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "ransomware",
-      "description": "ClamAV Android Ransomware: Slocker",
-      "source": "clamav_main"
+      "description": "ClamAV Android Ransomware: Slocker"
     },
     {
       "signatureName": "Andr.Ransomware.Slocker-6803890-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Ransomware.Slocker-6803890-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "ransomware",
-      "description": "ClamAV Android Ransomware: Slocker",
-      "source": "clamav_main"
+      "description": "ClamAV Android Ransomware: Slocker"
     },
     {
       "signatureName": "Andr.Ransomware.Jisut-6803896-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Ransomware.Jisut-6803896-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "ransomware",
-      "description": "ClamAV Android Ransomware: Jisut",
-      "source": "clamav_main"
+      "description": "ClamAV Android Ransomware: Jisut"
     },
     {
       "signatureName": "Andr.Malware.Graftor-6803909-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Malware.Graftor-6803909-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "malware",
-      "description": "ClamAV Android Malware: Graftor",
-      "source": "clamav_main"
+      "description": "ClamAV Android Malware: Graftor"
     },
     {
       "signatureName": "Andr.Malware.Mobilepay-6803914-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Malware.Mobilepay-6803914-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "malware",
-      "description": "ClamAV Android Malware: Mobilepay",
-      "source": "clamav_main"
+      "description": "ClamAV Android Malware: Mobilepay"
     },
     {
       "signatureName": "Andr.Malware.Androidos-6803921-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Malware.Androidos-6803921-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "malware",
-      "description": "ClamAV Android Malware: Androidos",
-      "source": "clamav_main"
+      "description": "ClamAV Android Malware: Androidos"
     },
     {
       "signatureName": "Andr.Ransomware.Slocker-6803939-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Ransomware.Slocker-6803939-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "ransomware",
-      "description": "ClamAV Android Ransomware: Slocker",
-      "source": "clamav_main"
+      "description": "ClamAV Android Ransomware: Slocker"
     },
     {
       "signatureName": "Andr.Malware.Gdhsr-6803952-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Malware.Gdhsr-6803952-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "malware",
-      "description": "ClamAV Android Malware: Gdhsr",
-      "source": "clamav_main"
+      "description": "ClamAV Android Malware: Gdhsr"
     },
     {
       "signatureName": "Andr.Ransomware.Slocker-6803960-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Ransomware.Slocker-6803960-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "ransomware",
-      "description": "ClamAV Android Ransomware: Slocker",
-      "source": "clamav_main"
+      "description": "ClamAV Android Ransomware: Slocker"
     },
     {
       "signatureName": "Andr.Malware.Mobilepay-6803967-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Malware.Mobilepay-6803967-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "malware",
-      "description": "ClamAV Android Malware: Mobilepay",
-      "source": "clamav_main"
+      "description": "ClamAV Android Malware: Mobilepay"
     },
     {
       "signatureName": "Andr.Ransomware.Slocker-6803979-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Ransomware.Slocker-6803979-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "ransomware",
-      "description": "ClamAV Android Ransomware: Slocker",
-      "source": "clamav_main"
+      "description": "ClamAV Android Ransomware: Slocker"
     },
     {
       "signatureName": "Andr.Ransomware.Slocker-6804145-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Ransomware.Slocker-6804145-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "ransomware",
-      "description": "ClamAV Android Ransomware: Slocker",
-      "source": "clamav_main"
+      "description": "ClamAV Android Ransomware: Slocker"
     },
     {
       "signatureName": "Andr.Ransomware.Slocker-6804146-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Ransomware.Slocker-6804146-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "ransomware",
-      "description": "ClamAV Android Ransomware: Slocker",
-      "source": "clamav_main"
+      "description": "ClamAV Android Ransomware: Slocker"
     },
     {
       "signatureName": "Andr.Ransomware.Jisut-6804147-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Ransomware.Jisut-6804147-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "ransomware",
-      "description": "ClamAV Android Ransomware: Jisut",
-      "source": "clamav_main"
+      "description": "ClamAV Android Ransomware: Jisut"
     },
     {
       "signatureName": "Andr.Trojan.Androrat-6804406-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.Androrat-6804406-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: Androrat",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: Androrat"
     },
     {
       "signatureName": "Andr.Ransomware.Slocker-6804426-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Ransomware.Slocker-6804426-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "ransomware",
-      "description": "ClamAV Android Ransomware: Slocker",
-      "source": "clamav_main"
+      "description": "ClamAV Android Ransomware: Slocker"
     },
     {
       "signatureName": "Andr.Malware.Hiddenads-6804428-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Malware.Hiddenads-6804428-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "malware",
-      "description": "ClamAV Android Malware: Hiddenads",
-      "source": "clamav_main"
+      "description": "ClamAV Android Malware: Hiddenads"
     },
     {
       "signatureName": "Andr.Malware.Androidos-6804429-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Malware.Androidos-6804429-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "malware",
-      "description": "ClamAV Android Malware: Androidos",
-      "source": "clamav_main"
+      "description": "ClamAV Android Malware: Androidos"
     },
     {
       "signatureName": "Andr.Malware.Hiddad-6804562-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Malware.Hiddad-6804562-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "malware",
-      "description": "ClamAV Android Malware: Hiddad",
-      "source": "clamav_main"
+      "description": "ClamAV Android Malware: Hiddad"
     },
     {
       "signatureName": "Andr.Ransomware.Slocker-6804563-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Ransomware.Slocker-6804563-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "ransomware",
-      "description": "ClamAV Android Ransomware: Slocker",
-      "source": "clamav_main"
+      "description": "ClamAV Android Ransomware: Slocker"
     },
     {
       "signatureName": "Andr.Malware.Hiddenapp-6804565-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Malware.Hiddenapp-6804565-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "malware",
-      "description": "ClamAV Android Malware: Hiddenapp",
-      "source": "clamav_main"
+      "description": "ClamAV Android Malware: Hiddenapp"
     },
     {
       "signatureName": "Andr.Malware.Smsthief-6804566-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Malware.Smsthief-6804566-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "malware",
-      "description": "ClamAV Android Malware: Smsthief",
-      "source": "clamav_main"
+      "description": "ClamAV Android Malware: Smsthief"
     },
     {
       "signatureName": "Andr.Malware.Spyagent-6804567-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Malware.Spyagent-6804567-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "malware",
-      "description": "ClamAV Android Malware: Spyagent",
-      "source": "clamav_main"
+      "description": "ClamAV Android Malware: Spyagent"
     },
     {
       "signatureName": "Andr.Malware.Hiddad-6804585-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Malware.Hiddad-6804585-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "malware",
-      "description": "ClamAV Android Malware: Hiddad",
-      "source": "clamav_main"
+      "description": "ClamAV Android Malware: Hiddad"
     },
     {
       "signatureName": "Andr.Malware.Generic-6804586-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Malware.Generic-6804586-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "malware",
-      "description": "ClamAV Android Malware: Generic",
-      "source": "clamav_main"
+      "description": "ClamAV Android Malware: Generic"
     },
     {
       "signatureName": "Andr.Malware.Wapron-6804587-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Malware.Wapron-6804587-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "malware",
-      "description": "ClamAV Android Malware: Wapron",
-      "source": "clamav_main"
+      "description": "ClamAV Android Malware: Wapron"
     },
     {
       "signatureName": "Andr.Malware.Smssend-6804588-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Malware.Smssend-6804588-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "malware",
-      "description": "ClamAV Android Malware: Smssend",
-      "source": "clamav_main"
+      "description": "ClamAV Android Malware: Smssend"
     },
     {
       "signatureName": "Andr.Malware.Slocker-6804589-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Malware.Slocker-6804589-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "malware",
-      "description": "ClamAV Android Malware: Slocker",
-      "source": "clamav_main"
+      "description": "ClamAV Android Malware: Slocker"
     },
     {
       "signatureName": "Andr.Malware.Smssend-6804591-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Malware.Smssend-6804591-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "malware",
-      "description": "ClamAV Android Malware: Smssend",
-      "source": "clamav_main"
+      "description": "ClamAV Android Malware: Smssend"
     },
     {
       "signatureName": "Andr.Ransomware.Slocker-6804594-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Ransomware.Slocker-6804594-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "ransomware",
-      "description": "ClamAV Android Ransomware: Slocker",
-      "source": "clamav_main"
+      "description": "ClamAV Android Ransomware: Slocker"
     },
     {
       "signatureName": "Andr.Ransomware.Smskey-6804596-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Ransomware.Smskey-6804596-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "ransomware",
-      "description": "ClamAV Android Ransomware: Smskey",
-      "source": "clamav_main"
+      "description": "ClamAV Android Ransomware: Smskey"
     },
     {
       "signatureName": "Andr.Keylogger.Generic-6804606-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Keylogger.Generic-6804606-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "keylogger",
-      "description": "ClamAV Android Keylogger: Generic",
-      "source": "clamav_main"
+      "description": "ClamAV Android Keylogger: Generic"
     },
     {
       "signatureName": "Andr.Malware.Generic-6804608-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Malware.Generic-6804608-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "malware",
-      "description": "ClamAV Android Malware: Generic",
-      "source": "clamav_main"
+      "description": "ClamAV Android Malware: Generic"
     },
     {
       "signatureName": "Andr.Malware.Generic-6804609-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Malware.Generic-6804609-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "malware",
-      "description": "ClamAV Android Malware: Generic",
-      "source": "clamav_main"
+      "description": "ClamAV Android Malware: Generic"
     },
     {
       "signatureName": "Andr.Malware.Smforw-6804610-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Malware.Smforw-6804610-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "malware",
-      "description": "ClamAV Android Malware: Smforw",
-      "source": "clamav_main"
+      "description": "ClamAV Android Malware: Smforw"
     },
     {
       "signatureName": "Andr.Malware.Smforw-6804611-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Malware.Smforw-6804611-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "malware",
-      "description": "ClamAV Android Malware: Smforw",
-      "source": "clamav_main"
+      "description": "ClamAV Android Malware: Smforw"
     },
     {
       "signatureName": "Andr.Malware.Smforw-6804612-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Malware.Smforw-6804612-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "malware",
-      "description": "ClamAV Android Malware: Smforw",
-      "source": "clamav_main"
+      "description": "ClamAV Android Malware: Smforw"
     },
     {
       "signatureName": "Andr.Malware.Lovetrap-6804615-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Malware.Lovetrap-6804615-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "malware",
-      "description": "ClamAV Android Malware: Lovetrap",
-      "source": "clamav_main"
+      "description": "ClamAV Android Malware: Lovetrap"
     },
     {
       "signatureName": "Andr.Malware.Hyspu-6838235-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Malware.Hyspu-6838235-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "malware",
-      "description": "ClamAV Android Malware: Hyspu",
-      "source": "clamav_main"
+      "description": "ClamAV Android Malware: Hyspu"
     },
     {
       "signatureName": "Andr.Trojan.LuckyCatRAT-6838465-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.LuckyCatRAT-6838465-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: LuckyCatRAT",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: LuckyCatRAT"
     },
     {
       "signatureName": "Andr.Dropper.Smspay-6840229-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Dropper.Smspay-6840229-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "dropper",
-      "description": "ClamAV Android Dropper: Smspay",
-      "source": "clamav_main"
+      "description": "ClamAV Android Dropper: Smspay"
     },
     {
       "signatureName": "Andr.Trojan.Generic-6840233-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.Generic-6840233-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: Generic",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: Generic"
     },
     {
       "signatureName": "Andr.Dropper.Smspay-6840244-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Dropper.Smspay-6840244-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "dropper",
-      "description": "ClamAV Android Dropper: Smspay",
-      "source": "clamav_main"
+      "description": "ClamAV Android Dropper: Smspay"
     },
     {
       "signatureName": "Andr.Malware.Smssend-6840252-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Malware.Smssend-6840252-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "malware",
-      "description": "ClamAV Android Malware: Smssend",
-      "source": "clamav_main"
+      "description": "ClamAV Android Malware: Smssend"
     },
     {
       "signatureName": "Andr.Dropper.Smspay-6840396-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Dropper.Smspay-6840396-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "dropper",
-      "description": "ClamAV Android Dropper: Smspay",
-      "source": "clamav_main"
+      "description": "ClamAV Android Dropper: Smspay"
     },
     {
       "signatureName": "Andr.Malware.Androidos-6840428-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Malware.Androidos-6840428-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "malware",
-      "description": "ClamAV Android Malware: Androidos",
-      "source": "clamav_main"
+      "description": "ClamAV Android Malware: Androidos"
     },
     {
       "signatureName": "Andr.Dropper.Smspay-6840580-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Dropper.Smspay-6840580-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "dropper",
-      "description": "ClamAV Android Dropper: Smspay",
-      "source": "clamav_main"
+      "description": "ClamAV Android Dropper: Smspay"
     },
     {
       "signatureName": "Andr.Malware.Androidos-6840588-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Malware.Androidos-6840588-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "malware",
-      "description": "ClamAV Android Malware: Androidos",
-      "source": "clamav_main"
+      "description": "ClamAV Android Malware: Androidos"
     },
     {
       "signatureName": "Andr.Malware.Androidos-6840600-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Malware.Androidos-6840600-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "malware",
-      "description": "ClamAV Android Malware: Androidos",
-      "source": "clamav_main"
+      "description": "ClamAV Android Malware: Androidos"
     },
     {
       "signatureName": "Andr.Dropper.Smspay-6840692-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Dropper.Smspay-6840692-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "dropper",
-      "description": "ClamAV Android Dropper: Smspay",
-      "source": "clamav_main"
+      "description": "ClamAV Android Dropper: Smspay"
     },
     {
       "signatureName": "Andr.Malware.Androidos-6840767-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Malware.Androidos-6840767-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "malware",
-      "description": "ClamAV Android Malware: Androidos",
-      "source": "clamav_main"
+      "description": "ClamAV Android Malware: Androidos"
     },
     {
       "signatureName": "Andr.Ransomware.Slocker-6840808-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Ransomware.Slocker-6840808-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "ransomware",
-      "description": "ClamAV Android Ransomware: Slocker",
-      "source": "clamav_main"
+      "description": "ClamAV Android Ransomware: Slocker"
     },
     {
       "signatureName": "Andr.Malware.Yoga-6878627-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Malware.Yoga-6878627-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "malware",
-      "description": "ClamAV Android Malware: Yoga",
-      "source": "clamav_main"
+      "description": "ClamAV Android Malware: Yoga"
     },
     {
       "signatureName": "Andr.Dropper.Cloud-6878648-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Dropper.Cloud-6878648-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "dropper",
-      "description": "ClamAV Android Dropper: Cloud",
-      "source": "clamav_main"
+      "description": "ClamAV Android Dropper: Cloud"
     },
     {
       "signatureName": "Andr.Malware.Generic-6878650-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Malware.Generic-6878650-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "malware",
-      "description": "ClamAV Android Malware: Generic",
-      "source": "clamav_main"
+      "description": "ClamAV Android Malware: Generic"
     },
     {
       "signatureName": "Andr.Ransomware.Androidos-6878685-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Ransomware.Androidos-6878685-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "ransomware",
-      "description": "ClamAV Android Ransomware: Androidos",
-      "source": "clamav_main"
+      "description": "ClamAV Android Ransomware: Androidos"
     },
     {
       "signatureName": "Andr.Trojan.Boogr-6878709-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.Boogr-6878709-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: Boogr",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: Boogr"
     },
     {
       "signatureName": "Andr.Malware.Androidos-6878719-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Malware.Androidos-6878719-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "malware",
-      "description": "ClamAV Android Malware: Androidos",
-      "source": "clamav_main"
+      "description": "ClamAV Android Malware: Androidos"
     },
     {
       "signatureName": "Andr.Malware.Hiddad-6887956-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Malware.Hiddad-6887956-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "malware",
-      "description": "ClamAV Android Malware: Hiddad",
-      "source": "clamav_main"
+      "description": "ClamAV Android Malware: Hiddad"
     },
     {
       "signatureName": "Andr.Malware.Hiddad-6887977-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Malware.Hiddad-6887977-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "malware",
-      "description": "ClamAV Android Malware: Hiddad",
-      "source": "clamav_main"
+      "description": "ClamAV Android Malware: Hiddad"
     },
     {
       "signatureName": "Andr.Trojan.Batmobi-6888040-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.Batmobi-6888040-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: Batmobi",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: Batmobi"
     },
     {
       "signatureName": "Andr.Malware.Androidos-6888056-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Malware.Androidos-6888056-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "malware",
-      "description": "ClamAV Android Malware: Androidos",
-      "source": "clamav_main"
+      "description": "ClamAV Android Malware: Androidos"
     },
     {
       "signatureName": "Andr.Malware.Triada-6888065-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Malware.Triada-6888065-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "malware",
-      "description": "ClamAV Android Malware: Triada",
-      "source": "clamav_main"
+      "description": "ClamAV Android Malware: Triada"
     },
     {
       "signatureName": "Andr.Malware.Paac-6888112-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Malware.Paac-6888112-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "malware",
-      "description": "ClamAV Android Malware: Paac",
-      "source": "clamav_main"
+      "description": "ClamAV Android Malware: Paac"
     },
     {
       "signatureName": "Andr.Trojan.Androrat-6888114-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.Androrat-6888114-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: Androrat",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: Androrat"
     },
     {
       "signatureName": "Andr.Malware.Wapron-6888116-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Malware.Wapron-6888116-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "malware",
-      "description": "ClamAV Android Malware: Wapron",
-      "source": "clamav_main"
+      "description": "ClamAV Android Malware: Wapron"
     },
     {
       "signatureName": "Andr.Malware.Generic-6888118-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Malware.Generic-6888118-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "malware",
-      "description": "ClamAV Android Malware: Generic",
-      "source": "clamav_main"
+      "description": "ClamAV Android Malware: Generic"
     },
     {
       "signatureName": "Andr.Malware.Smsreg-6888161-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Malware.Smsreg-6888161-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "malware",
-      "description": "ClamAV Android Malware: Smsreg",
-      "source": "clamav_main"
+      "description": "ClamAV Android Malware: Smsreg"
     },
     {
       "signatureName": "Andr.Trojan.Xiny-6888193-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.Xiny-6888193-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: Xiny",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: Xiny"
     },
     {
       "signatureName": "Andr.Malware.Syringe-6888212-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Malware.Syringe-6888212-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "malware",
-      "description": "ClamAV Android Malware: Syringe",
-      "source": "clamav_main"
+      "description": "ClamAV Android Malware: Syringe"
     },
     {
       "signatureName": "Andr.Packed.Tencentprotect-6888222-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Packed.Tencentprotect-6888222-0",
-      "fileSize": 0,
       "fileType": "APK",
-      "severity": "medium",
+      "severity": "high",
       "family": "packed",
-      "description": "ClamAV Android Packed: Tencentprotect",
-      "source": "clamav_main"
+      "description": "ClamAV Android Packed: Tencentprotect"
     },
     {
       "signatureName": "Andr.Trojan.Generic-6888242-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.Generic-6888242-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: Generic",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: Generic"
     },
     {
       "signatureName": "Andr.Malware.Smssend-6888323-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Malware.Smssend-6888323-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "malware",
-      "description": "ClamAV Android Malware: Smssend",
-      "source": "clamav_main"
+      "description": "ClamAV Android Malware: Smssend"
     },
     {
       "signatureName": "Andr.Malware.Styricka-6888335-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Malware.Styricka-6888335-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "malware",
-      "description": "ClamAV Android Malware: Styricka",
-      "source": "clamav_main"
+      "description": "ClamAV Android Malware: Styricka"
     },
     {
       "signatureName": "Andr.Malware.Fakeapp-6888352-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Malware.Fakeapp-6888352-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "malware",
-      "description": "ClamAV Android Malware: Fakeapp",
-      "source": "clamav_main"
+      "description": "ClamAV Android Malware: Fakeapp"
     },
     {
       "signatureName": "Andr.Trojan.Certv-6888362-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.Certv-6888362-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: Certv",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: Certv"
     },
     {
       "signatureName": "Andr.Trojan.Leadbolt-6888388-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Trojan.Leadbolt-6888388-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "critical",
       "family": "trojan",
-      "description": "ClamAV Android Trojan: Leadbolt",
-      "source": "clamav_main"
+      "description": "ClamAV Android Trojan: Leadbolt"
     },
     {
       "signatureName": "Andr.Malware.Androidos-6888390-0",
       "hashType": "CLAMAV_PATTERN",
       "hashValue": "Andr.Malware.Androidos-6888390-0",
-      "fileSize": 0,
       "fileType": "APK",
       "severity": "high",
       "family": "malware",
-      "description": "ClamAV Android Malware: Androidos",
-      "source": "clamav_main"
+      "description": "ClamAV Android Malware: Androidos"
+    },
+    {
+      "signatureName": "Eicar-Test-Signature",
+      "hashType": "SHA256",
+      "hashValue": "275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f",
+      "fileSize": 68,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "eicar-test-signature",
+      "description": "ClamAV SHA-256: Eicar-Test-Signature"
+    },
+    {
+      "signatureName": "Pdf.Phishing.BlurAuthRequired-8187203-0",
+      "hashType": "SHA256",
+      "hashValue": "b258e846a5dcb48d1f4e1b98ad856c4293c23968f33c4c1f71f62d49d13f6cc4",
+      "fileSize": 70111,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "pdf",
+      "description": "ClamAV SHA-256: Pdf.Phishing.BlurAuthRequired-8187203-0"
+    },
+    {
+      "signatureName": "Doc.Downloader.GreenBox5-9139204-0",
+      "hashType": "SHA256",
+      "hashValue": "6b6f338fc4c5bbd08fd81c3eaaba7e060cfc87c75899b6dfc284af3ac2966e1e",
+      "fileSize": 93942,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "doc",
+      "description": "ClamAV SHA-256: Doc.Downloader.GreenBox5-9139204-0"
+    },
+    {
+      "signatureName": "Doc.Downloader.GreenBox6-9139694-0",
+      "hashType": "SHA256",
+      "hashValue": "2940036a59a400da6bfb66dbf0aa58b14a2dae0353dd307ddd9501caf689539a",
+      "fileSize": 93904,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "doc",
+      "description": "ClamAV SHA-256: Doc.Downloader.GreenBox6-9139694-0"
+    },
+    {
+      "signatureName": "Win.Packed.Taidoor-9209810-1",
+      "hashType": "SHA256",
+      "hashValue": "0d0ccfe7cd476e2e2498b854cef2e6f959df817e52924b3a8bcdae7a8faaa686",
+      "fileSize": 183808,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Packed.Taidoor-9209810-1"
+    },
+    {
+      "signatureName": "Win.Packed.Taidoor-9209834-1",
+      "hashType": "SHA256",
+      "hashValue": "363ea096a3f6d06d56dc97ff1618607d462f366139df70c88310bbf77b9f9f90",
+      "fileSize": 158208,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Packed.Taidoor-9209834-1"
+    },
+    {
+      "signatureName": "Rtf.Dropper.Agent-9323968-0",
+      "hashType": "SHA256",
+      "hashValue": "44f023a2a0547c89f47f57deb8035734783aac9145eb68c8e2616b2e3c65f519",
+      "fileSize": 301,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "rtf",
+      "description": "ClamAV SHA-256: Rtf.Dropper.Agent-9323968-0"
+    },
+    {
+      "signatureName": "Doc.Downloader.BLINDINGCAN0-9448424-0",
+      "hashType": "SHA256",
+      "hashValue": "65ef5f4fe452695ab5b6db6ed845eba73c88281ac8bf6269f0b6f57c241915ba",
+      "fileSize": 59320,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "doc",
+      "description": "ClamAV SHA-256: Doc.Downloader.BLINDINGCAN0-9448424-0"
+    },
+    {
+      "signatureName": "Doc.Downloader.BLINDINGCAN1-9448677-0",
+      "hashType": "SHA256",
+      "hashValue": "c3cba2e42754d2f475cec606aebf5fc9c03a596ce8d330c1565d457cc92c4422",
+      "fileSize": 62289,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "doc",
+      "description": "ClamAV SHA-256: Doc.Downloader.BLINDINGCAN1-9448677-0"
+    },
+    {
+      "signatureName": "Xls.Dropper.Agent-9559389-0",
+      "hashType": "SHA256",
+      "hashValue": "85a93c343e456d4845fc9a1364509c6d2e7fe6092fb1bc3bdc0e673e8563b6da",
+      "fileSize": 991,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "xls",
+      "description": "ClamAV SHA-256: Xls.Dropper.Agent-9559389-0"
+    },
+    {
+      "signatureName": "Rtf.Dropper.Agent-9755409-0",
+      "hashType": "SHA256",
+      "hashValue": "76e038b236a8fa1a34ec10d5b904a9d9c200908c9f162ec8686706d55a23da72",
+      "fileSize": 1,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "rtf",
+      "description": "ClamAV SHA-256: Rtf.Dropper.Agent-9755409-0"
+    },
+    {
+      "signatureName": "Unix.Trojan.UNC1945-9911222-0",
+      "hashType": "SHA256",
+      "hashValue": "7d587a5f6f36a74dcfbcbaecb2b0547fdf1ecdb034341f4cc7ae489f5b57a11d",
+      "fileSize": 4992312,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "unix",
+      "description": "ClamAV SHA-256: Unix.Trojan.UNC1945-9911222-0"
+    },
+    {
+      "signatureName": "Win.Malware.HermeticWizard-9941571-0",
+      "hashType": "SHA256",
+      "hashValue": "a259e9b0acf375a8bef8dbc27a8a1996ee02a56889cba07ef58c49185ab033ec",
+      "fileSize": 698632,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.HermeticWizard-9941571-0"
+    },
+    {
+      "signatureName": "Win.Trojan.Downloader-9941325-0",
+      "hashType": "SHA256",
+      "hashValue": "a67be265be7e129187d007447f30befe1d8574c30c1e587c2e78ccf5daeaf51c",
+      "fileSize": 2560,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Trojan.Downloader-9941325-0"
+    },
+    {
+      "signatureName": "Win.Trojan.Keylogger-9941326-0",
+      "hashType": "SHA256",
+      "hashValue": "679fc86c0fc479bc99db69c1aa6ede1086183ba9f1150fb426f294b9979c7ae6",
+      "fileSize": 11776,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Trojan.Keylogger-9941326-0"
+    },
+    {
+      "signatureName": "Win.Trojan.Generic-9942288-0",
+      "hashType": "SHA256",
+      "hashValue": "2c3e0f80d9a622e45fe5a33226810f0543bcbe6358b2b1cf021854e377516e6b",
+      "fileSize": 1552264,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Trojan.Generic-9942288-0"
+    },
+    {
+      "signatureName": "Win.Trojan.Downloader-9942289-1",
+      "hashType": "SHA256",
+      "hashValue": "91bd834c44b788e2729a7d6f577863b2529248d2cc45987221c6ab412b3207eb",
+      "fileSize": 2560,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Trojan.Downloader-9942289-1"
+    },
+    {
+      "signatureName": "Win.Trojan.KillAV-9942290-0",
+      "hashType": "SHA256",
+      "hashValue": "0bf1cc3e34e1a54c9ef5441d0f2317cd95a2492028244f095379766bcde0cada",
+      "fileSize": 95744,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Trojan.KillAV-9942290-0"
+    },
+    {
+      "signatureName": "Win.Trojan.Generic-9942291-0",
+      "hashType": "SHA256",
+      "hashValue": "5c5c6ccaa3c7d0c6cf4ede8ac37a890dd5f33a4fdab2feaf09553e61a26351dd",
+      "fileSize": 29184,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Trojan.Generic-9942291-0"
+    },
+    {
+      "signatureName": "Win.Trojan.Downloader-9942294-0",
+      "hashType": "SHA256",
+      "hashValue": "0478a35fc3b68c96f01ce0ea89b5ba161b6edc3a05e1d8fdb7502dfcb3e48077",
+      "fileSize": 15360,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Trojan.Downloader-9942294-0"
+    },
+    {
+      "signatureName": "Unix.Backdoor.DarkUtilities-9959739-0",
+      "hashType": "SHA256",
+      "hashValue": "65a1b3fb9430c7342d13f79b460b2cc7d9f9ddced2aeecd37f2862a67083e68c",
+      "fileSize": 10500048,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "unix",
+      "description": "ClamAV SHA-256: Unix.Backdoor.DarkUtilities-9959739-0"
+    },
+    {
+      "signatureName": "Win.Dropper.Agent-9982186-0",
+      "hashType": "SHA256",
+      "hashValue": "b29b0f2a27ccbb9f12363a3dde1f2d2373fdc782232f4804f0abffbb8daf9d25",
+      "fileSize": 1910784,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Dropper.Agent-9982186-0"
+    },
+    {
+      "signatureName": "Lnk.Dropper.Agent-9982190-0",
+      "hashType": "SHA256",
+      "hashValue": "59f4de94d55dfe45b09f384d162cca358f2457c39f03334435d0b21b7110240c",
+      "fileSize": 952,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "lnk",
+      "description": "ClamAV SHA-256: Lnk.Dropper.Agent-9982190-0"
+    },
+    {
+      "signatureName": "Lnk.Dropper.Agent-9982191-0",
+      "hashType": "SHA256",
+      "hashValue": "1e0b92485e09ac970ae38214fb5c7407f73027ada47ea697017e49cacb576908",
+      "fileSize": 12145,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "lnk",
+      "description": "ClamAV SHA-256: Lnk.Dropper.Agent-9982191-0"
+    },
+    {
+      "signatureName": "Win.Trojan.Lazagne-8014384-2",
+      "hashType": "SHA256",
+      "hashValue": "5dbd09864b253be7bb263010fb23dba7df726a3991ad9fc52d73195b7bea23a3",
+      "fileSize": 5216633,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Trojan.Lazagne-8014384-2"
+    },
+    {
+      "signatureName": "Win.Infostealer.Typhon-9994892-0",
+      "hashType": "SHA256",
+      "hashValue": "1f7556682b8f150a15d0e621257bdb05a150d4b9a0bb55b8d872ce1233919c6e",
+      "fileSize": 2415104,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Infostealer.Typhon-9994892-0"
+    },
+    {
+      "signatureName": "Win.Downloader.Jatif-9996978-0",
+      "hashType": "SHA256",
+      "hashValue": "095fbb7685f5ad054bab28346d744e137564beabc33c13a25818936ddc739f5b",
+      "fileSize": 9879872,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Downloader.Jatif-9996978-0"
+    },
+    {
+      "signatureName": "Win.Downloader.Jatif-9996979-0",
+      "hashType": "SHA256",
+      "hashValue": "882d95bdbca75ab9d13486e477ab76b3978e14d6fca30c11ec368f7e5fa1d0cb",
+      "fileSize": 9874752,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Downloader.Jatif-9996979-0"
+    },
+    {
+      "signatureName": "Win.Trojan.Remcos-10018646-0",
+      "hashType": "SHA256",
+      "hashValue": "dd277db4beda582c70402c9163491da27fde7cba2906f15e5beb8b2a394c400b",
+      "fileSize": 1846272,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Trojan.Remcos-10018646-0"
+    },
+    {
+      "signatureName": "Win.Trojan.Remcos-10018647-0",
+      "hashType": "SHA256",
+      "hashValue": "6e5db2efcad7fbacc72f1db53741d342a2524a481c4835885fe6c3a46e9036b3",
+      "fileSize": 1855712,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Trojan.Remcos-10018647-0"
+    },
+    {
+      "signatureName": "Win.Backdoor.ZardoorVMP-10019731-0",
+      "hashType": "SHA256",
+      "hashValue": "f71f7c68209ea8218463df397e5c39ef5f916f138dc001feb3a60ef585bd2ac2",
+      "fileSize": 6989824,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Backdoor.ZardoorVMP-10019731-0"
+    },
+    {
+      "signatureName": "Win.Ransomware.Cactus-10028147-0",
+      "hashType": "SHA256",
+      "hashValue": "320cae88427362e35f480e00035ea95d4a558d950daa12876cbe4f0be388baa9",
+      "fileSize": 6832128,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Ransomware.Cactus-10028147-0"
+    },
+    {
+      "signatureName": "Vbs.Malware.Armageddon-10029825-0",
+      "hashType": "SHA256",
+      "hashValue": "8a1ba21e64b07a5d8065a54e16f8b5c3929ab07fa9c1ebfe8095bd8dafeb7e6b",
+      "fileSize": 64942,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "vbs",
+      "description": "ClamAV SHA-256: Vbs.Malware.Armageddon-10029825-0"
+    },
+    {
+      "signatureName": "Ps1.Malware.Armageddon-10029826-0",
+      "hashType": "SHA256",
+      "hashValue": "022dfdd5c606436cb897ba8f843d936a14698b4eca9ef3b18adbedfb7a6e2932",
+      "fileSize": 292,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "ps1",
+      "description": "ClamAV SHA-256: Ps1.Malware.Armageddon-10029826-0"
+    },
+    {
+      "signatureName": "Win.Downloader.SmokeloaderArchive-10035859-0",
+      "hashType": "SHA256",
+      "hashValue": "4b5f549640c29d7f428ceebc84345eea576a74d8c22e7051768ac82a6f53caa3",
+      "fileSize": 68169,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Downloader.SmokeloaderArchive-10035859-0"
+    },
+    {
+      "signatureName": "Win.Downloader.RustAgent-10036537-0",
+      "hashType": "SHA256",
+      "hashValue": "aabe8e6ff6e5cece03cbe24d1d4b8504f151d894cfac299bf109e6a8acfa9d3b",
+      "fileSize": 1716736,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Downloader.RustAgent-10036537-0"
+    },
+    {
+      "signatureName": "Win.Downloader.RustAgent-10036538-0",
+      "hashType": "SHA256",
+      "hashValue": "b90b3d714a5efb0d5eb22772ab60d14283402719fc6c635c2e8a6ecf724197c5",
+      "fileSize": 1707520,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Downloader.RustAgent-10036538-0"
+    },
+    {
+      "signatureName": "Win.Downloader.RustAgent-10036539-0",
+      "hashType": "SHA256",
+      "hashValue": "be2f4aebad279a85d3eba107137feab1df88ccd885ac1a23d885bb2f649ff9c7",
+      "fileSize": 1776640,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Downloader.RustAgent-10036539-0"
+    },
+    {
+      "signatureName": "Win.Downloader.GoAgent-10036540-0",
+      "hashType": "SHA256",
+      "hashValue": "2a029767cb63787607dc92a8f5d7d66ec8d59111ac191a65a317f0ebc4740d82",
+      "fileSize": 7545344,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Downloader.GoAgent-10036540-0"
+    },
+    {
+      "signatureName": "Win.Trojan.EarthBaku-10036554-0",
+      "hashType": "SHA256",
+      "hashValue": "7e63c6b9ab3b32beffbc1eb23d6ca7cc59616b0722f0dd4f0d893c0a1724f5d7",
+      "fileSize": 2161661,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Trojan.EarthBaku-10036554-0"
+    },
+    {
+      "signatureName": "Win.Trojan.EarthBaku-10036555-0",
+      "hashType": "SHA256",
+      "hashValue": "8405d742405d3a6d3bda6bc49630dd5f3604a3d6ae27cbd533e425f8abbaafdc",
+      "fileSize": 1476141,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Trojan.EarthBaku-10036555-0"
+    },
+    {
+      "signatureName": "Win.Trojan.EarthBaku-10036556-0",
+      "hashType": "SHA256",
+      "hashValue": "c6a3a1ea84251aed908702a1f2a565496d583239c5f467f5dcd0cfc5bfb1a6db",
+      "fileSize": 179712,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Trojan.EarthBaku-10036556-0"
+    },
+    {
+      "signatureName": "Win.Dropper.Iifn-10043838-0",
+      "hashType": "SHA256",
+      "hashValue": "a1d8605a281eeeb606da656fc301c1ff93a35099e9fadeb1cd8ae5bfdef98ba1",
+      "fileSize": 380928,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Dropper.Iifn-10043838-0"
+    },
+    {
+      "signatureName": "Win.Backdoor.RainyDay-10045396-0",
+      "hashType": "SHA256",
+      "hashValue": "03cec3b010853893310fea486ecfddf09642a7a5c695c70db77d22bc7c402234",
+      "fileSize": 276458,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Backdoor.RainyDay-10045396-0"
+    },
+    {
+      "signatureName": "Win.Backdoor.RainyDay-10045397-0",
+      "hashType": "SHA256",
+      "hashValue": "0443289b1fc556c5ef4bbfa13774500e3936d965799a9c27be0601170601094d",
+      "fileSize": 81198,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Backdoor.RainyDay-10045397-0"
+    },
+    {
+      "signatureName": "Win.Backdoor.RainyDay-10045398-0",
+      "hashType": "SHA256",
+      "hashValue": "089809e73354648b3caed7db6bc24dcce4f2ef0f327206fd14f36c6619d9ed30",
+      "fileSize": 5503488,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Backdoor.RainyDay-10045398-0"
+    },
+    {
+      "signatureName": "Win.Backdoor.RainyDay-10045399-0",
+      "hashType": "SHA256",
+      "hashValue": "0ec83d1deb6065cac8ba8f849cdf5672da7313ec2e860a7d71bb7e397e661394",
+      "fileSize": 149016,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Backdoor.RainyDay-10045399-0"
+    },
+    {
+      "signatureName": "Win.Backdoor.RainyDay-10045400-0",
+      "hashType": "SHA256",
+      "hashValue": "10479191f2e06ff11797fc4dda2e38ae6667c9dc396fac32a6cf76965358ade6",
+      "fileSize": 107340,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Backdoor.RainyDay-10045400-0"
+    },
+    {
+      "signatureName": "Win.Backdoor.RainyDay-10045401-0",
+      "hashType": "SHA256",
+      "hashValue": "42c9505c2c55b80e0e311cd6da6a5263b946c8ae8bd8162b0280a1e9be7f174b",
+      "fileSize": 96484,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Backdoor.RainyDay-10045401-0"
+    },
+    {
+      "signatureName": "Win.Backdoor.RainyDay-10045403-0",
+      "hashType": "SHA256",
+      "hashValue": "7b028a9bd2bc0c306ab6561cf702406f5925fc073f9d0d2d9408ceccd6907743",
+      "fileSize": 149026,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Backdoor.RainyDay-10045403-0"
+    },
+    {
+      "signatureName": "Win.Backdoor.RainyDay-10045404-0",
+      "hashType": "SHA256",
+      "hashValue": "a92ed5f831c99bb84208ef7d7c733e0183a79de40f9d3b3be54744951f0a1391",
+      "fileSize": 149021,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Backdoor.RainyDay-10045404-0"
+    },
+    {
+      "signatureName": "Win.Backdoor.RainyDay-10045405-0",
+      "hashType": "SHA256",
+      "hashValue": "b03fe49036c3830f149135068ff54f5c6c6622008a6fcb7edbf6b352e9a0acc0",
+      "fileSize": 146201,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Backdoor.RainyDay-10045405-0"
+    },
+    {
+      "signatureName": "Win.Backdoor.RainyDay-10045408-0",
+      "hashType": "SHA256",
+      "hashValue": "c91595edd1c9a0a2c1168e3bfa532e4a7dbb6b1380afd80ba445b728622798a4",
+      "fileSize": 146532,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Backdoor.RainyDay-10045408-0"
+    },
+    {
+      "signatureName": "Win.Backdoor.RainyDay-10045410-0",
+      "hashType": "SHA256",
+      "hashValue": "fd87149d6b8fdcad5d84ba4a3ca52e1cef8f0c54cafca6dbbb5d156f313d79dd",
+      "fileSize": 132339,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Backdoor.RainyDay-10045410-0"
+    },
+    {
+      "signatureName": "Win.Trojan.Agent-10045460-0",
+      "hashType": "SHA256",
+      "hashValue": "4c66e7ebf2ca2ecf00379463835e6a2d5b0231d93fb274a968e75f45b9b7adbc",
+      "fileSize": 230912,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Trojan.Agent-10045460-0"
+    },
+    {
+      "signatureName": "Win.Backdoor.RainyDay-10045402-0",
+      "hashType": "SHA256",
+      "hashValue": "6ffc76ca3cee8bdf8a54ff041a7998c2f37bd7585d9c0eaa2dc70a27283131a7",
+      "fileSize": 622,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Backdoor.RainyDay-10045402-0"
+    },
+    {
+      "signatureName": "Win.Backdoor.RainyDay-10045406-0",
+      "hashType": "SHA256",
+      "hashValue": "b1ee96026a3fc0ee55dab3b73896e88760f909b3c52d4a0152288d90e63f2e63",
+      "fileSize": 96858,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Backdoor.RainyDay-10045406-0"
+    },
+    {
+      "signatureName": "Win.Backdoor.RainyDay-10045407-0",
+      "hashType": "SHA256",
+      "hashValue": "b691b2c1846ea75bb5b07a21c8664ecdb6379685623ba45fe6ca552e94a58ebc",
+      "fileSize": 148999,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Backdoor.RainyDay-10045407-0"
+    },
+    {
+      "signatureName": "Win.Backdoor.RainyDay-10045409-0",
+      "hashType": "SHA256",
+      "hashValue": "fd6b1ca0f26e54fa9c97ea15c834e58ffb71798df38071ad00b14f19d6a4126c",
+      "fileSize": 146488,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Backdoor.RainyDay-10045409-0"
+    },
+    {
+      "signatureName": "Win.Exploit.CVE_2025_49696-10045465-0",
+      "hashType": "SHA256",
+      "hashValue": "b54f04e5fbafd78421e1926849904738155c810fd3792a060fcd2edbcd230ba3",
+      "fileSize": 163840,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Exploit.CVE_2025_49696-10045465-0"
+    },
+    {
+      "signatureName": "Archive.Trojan.LegionLoader-10056546-1",
+      "hashType": "SHA256",
+      "hashValue": "e0ac85157974e2a313cb33d2913f4c5eb21a3cfa36a1bfcf8c8f6bf347591a97",
+      "fileSize": 1048576,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "archive",
+      "description": "ClamAV SHA-256: Archive.Trojan.LegionLoader-10056546-1"
+    },
+    {
+      "signatureName": "Archive.Trojan.LegionLoader-10056550-0",
+      "hashType": "SHA256",
+      "hashValue": "6ddb115862b53becedf0525a732b5f16d635f4d30e3ac41a237ba905abee4b8b",
+      "fileSize": 32768,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "archive",
+      "description": "ClamAV SHA-256: Archive.Trojan.LegionLoader-10056550-0"
+    },
+    {
+      "signatureName": "Win.Exploit.CVE_2025_49743-10056498-0",
+      "hashType": "SHA256",
+      "hashValue": "88b3290cf52d4e3819d018cfb9baffa3872c74ab057a90edbbb4754c4d10d6f7",
+      "fileSize": 22016,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Exploit.CVE_2025_49743-10056498-0"
+    },
+    {
+      "signatureName": "Win.Exploit.CVE_2025_53132-10056504-0",
+      "hashType": "SHA256",
+      "hashValue": "d518e25c056036866ef47eed1185412dfb804552ec6c58336449e4164a4ca537",
+      "fileSize": 172032,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Exploit.CVE_2025_53132-10056504-0"
+    },
+    {
+      "signatureName": "Win.Malware.EncryptHub-10057874-0",
+      "hashType": "SHA256",
+      "hashValue": "3fcd387227dc5d4d49d38d60d80ad3ddf9d33d98f29a8bced1f1141d4ec80fea",
+      "fileSize": 177726,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.EncryptHub-10057874-0"
+    },
+    {
+      "signatureName": "Win.Trojan.EncryptHub-10057875-0",
+      "hashType": "SHA256",
+      "hashValue": "5635dd2ea74ebc829f1f53777be22ad34bb6a14d7e1e2e90e25268f65aca1220",
+      "fileSize": 10682880,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Trojan.EncryptHub-10057875-0"
+    },
+    {
+      "signatureName": "Win.Dropper.Danabot-6872525-1",
+      "hashType": "SHA256",
+      "hashValue": "4d542b11ff7b3dfab52d4c9e64ae209ef9afbdfcea1910ca24815eec54944f21",
+      "fileSize": 5294,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Dropper.Danabot-6872525-1"
+    },
+    {
+      "signatureName": "Win.Trojan.Filensfer-6966071-1",
+      "hashType": "SHA256",
+      "hashValue": "3dbe8700ecd27b3dc39643b95b187ccfd44318fc88c5e6ee6acf3a07cdaf377e",
+      "fileSize": 7711063,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Trojan.Filensfer-6966071-1"
+    },
+    {
+      "signatureName": "Win.Loader.Havoc-10059618-1",
+      "hashType": "SHA256",
+      "hashValue": "0015d41c98a49b31e727a350f5de213fbda3e3e56f6dd3791709e74233559c17",
+      "fileSize": 64000,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Loader.Havoc-10059618-1"
+    },
+    {
+      "signatureName": "Win.Trojan.Agent-10059772-0",
+      "hashType": "SHA256",
+      "hashValue": "d14ef17313fb94d2e4c2986e644a960c3c0e1806fb7161bd19041999789a4796",
+      "fileSize": 4164096,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Trojan.Agent-10059772-0"
+    },
+    {
+      "signatureName": "Win.Trojan.Agent-10059773-0",
+      "hashType": "SHA256",
+      "hashValue": "907aa01926edfaaad1557540d07ae169039d56ca5b81dbbd1bbd4bb2edfca31c",
+      "fileSize": 4164096,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Trojan.Agent-10059773-0"
+    },
+    {
+      "signatureName": "Win.Trojan.Agent-10059774-0",
+      "hashType": "SHA256",
+      "hashValue": "a248478b0658e28388b0ecb671747030464a8cb611f2aa21a00da87a54debc52",
+      "fileSize": 4630528,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Trojan.Agent-10059774-0"
+    },
+    {
+      "signatureName": "Win.Trojan.Agent-10059775-0",
+      "hashType": "SHA256",
+      "hashValue": "a8a78a6d69b11480b35ecd3ec6b5c05bfc3eafb90a815cdf00f38df518bd5936",
+      "fileSize": 43363976,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Trojan.Agent-10059775-0"
+    },
+    {
+      "signatureName": "Win.Trojan.Agent-10059776-0",
+      "hashType": "SHA256",
+      "hashValue": "b43719752cce364c083bd493cefe9066ed2d4a3a29f05769ec77b72520de2b11",
+      "fileSize": 86766744,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Trojan.Agent-10059776-0"
+    },
+    {
+      "signatureName": "Win.Trojan.Proxyware-10060272-0",
+      "hashType": "SHA256",
+      "hashValue": "c644ea883a22d91b0fff4d13d4e391c8eb8f6edcd6415617ca329955234df9fa",
+      "fileSize": 70058224,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Trojan.Proxyware-10060272-0"
+    },
+    {
+      "signatureName": "Win.Malware.Starland-10060343-0",
+      "hashType": "SHA256",
+      "hashValue": "2a27b3415114b874da295c19cce5227a8b8d9525cc2da331034a1f45528eecae",
+      "fileSize": 253694,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Starland-10060343-0"
+    },
+    {
+      "signatureName": "Win.Malware.Remka-10060344-0",
+      "hashType": "SHA256",
+      "hashValue": "1b46f761719dce44baa2d7b417c5214fc41c080f7f9ba485e7e489d949097f1f",
+      "fileSize": 558155,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Remka-10060344-0"
+    },
+    {
+      "signatureName": "sid25347313-1",
+      "hashType": "SHA256",
+      "hashValue": "6bed1a3a956a859ef4420feb2466c040800eaf01ef53214ef9dab53aeff1cff0",
+      "fileSize": 2871808,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "sid25347313-1",
+      "description": "ClamAV SHA-256: sid25347313-1"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580365-0",
+      "hashType": "SHA256",
+      "hashValue": "fcfb56fa79d2383d34c471ef439314edc2239d632a880aa2de3cea430f6b5665",
+      "fileSize": 57456,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580365-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580370-0",
+      "hashType": "SHA256",
+      "hashValue": "515374423b8b132258bd91acf6f29168dcc267a3f45ecb9d1fe18ee3a253195b",
+      "fileSize": 397824,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580370-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580373-0",
+      "hashType": "SHA256",
+      "hashValue": "94c4733eebf19013df3b42d76c11ed5d153a56bdab57e1c748e07cc7da38f3ba",
+      "fileSize": 26624,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580373-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580374-0",
+      "hashType": "SHA256",
+      "hashValue": "694be2698bcc5c7a1cce11f8ef65c1c96a883d14b98148c36b32888fb58b6a7e",
+      "fileSize": 94208,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580374-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580375-0",
+      "hashType": "SHA256",
+      "hashValue": "0bb750195fbd93d174c2a8e20bcbcae4efefc881f7961fdca8fa6ebd68ac1edf",
+      "fileSize": 35840,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580375-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580376-0",
+      "hashType": "SHA256",
+      "hashValue": "73d1d55493886639c619e9f5e312daab93e4feeb74f24dbe51593842baac8d15",
+      "fileSize": 86016,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580376-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580377-0",
+      "hashType": "SHA256",
+      "hashValue": "c8b354793ad5a16744cf1d4efdc5fe48d5a0cf0657974eb7145e0088fcf609ff",
+      "fileSize": 27136,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580377-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580378-0",
+      "hashType": "SHA256",
+      "hashValue": "e1c9c9f031d902e69e42f684ae5b35a2513f7d5f8bca83dfbab10e8de6254c78",
+      "fileSize": 86016,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580378-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580379-0",
+      "hashType": "SHA256",
+      "hashValue": "5f06ec411f127f23add9f897dc165eaa68cbe8bb99da8f00a4a360f108bb8741",
+      "fileSize": 49152,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580379-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580380-0",
+      "hashType": "SHA256",
+      "hashValue": "c7bf4c012293e7de56d86f4f5b4eeb6c1c5263568cc4d9863a286a86b5daf194",
+      "fileSize": 98304,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580380-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580381-0",
+      "hashType": "SHA256",
+      "hashValue": "d382e598544a739dd17b407466a536070203cbe375c56c54792b6d0eded678cd",
+      "fileSize": 26112,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580381-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580382-0",
+      "hashType": "SHA256",
+      "hashValue": "dfb38ed2ca3870faf351df1bd447a3dc4470ed568553bf83df07bf07967bf520",
+      "fileSize": 86016,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580382-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580383-0",
+      "hashType": "SHA256",
+      "hashValue": "104c466732154ec25eb8b81efa88c74cec0a5baeaba76f6fd6eaa30c285c212b",
+      "fileSize": 27648,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580383-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580384-0",
+      "hashType": "SHA256",
+      "hashValue": "d92928a867a685274b0a74ec55c0b83690fca989699310179e184e2787d47f48",
+      "fileSize": 86016,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580384-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580385-0",
+      "hashType": "SHA256",
+      "hashValue": "0cbc5cc2e24f25cb645fb57d6088bcfb893f9eb9f27f8851503a1b33378ff22d",
+      "fileSize": 77824,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580385-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580386-0",
+      "hashType": "SHA256",
+      "hashValue": "e44fe9432c5e11b51660efc37bf9b553260ad4130651a604ad11ca784d7f9238",
+      "fileSize": 72704,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580386-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580387-0",
+      "hashType": "SHA256",
+      "hashValue": "339855618fb3ef53987b8c14a61bd4519b2616e766149e0c21cbd7cbe7a632c9",
+      "fileSize": 91648,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580387-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580388-0",
+      "hashType": "SHA256",
+      "hashValue": "412efa09d71223208f3d24a661b8539d98aad6b61157707e865e288a96cda806",
+      "fileSize": 78848,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580388-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580389-0",
+      "hashType": "SHA256",
+      "hashValue": "7352bece317e6e6896d7667faa2b38bb4f1a38112821567136d60369a91bcbef",
+      "fileSize": 100864,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580389-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580390-0",
+      "hashType": "SHA256",
+      "hashValue": "4ebfc1f6ec6a0e68e47e5b231331470a4483184cf715a578191b91ba7c32094d",
+      "fileSize": 91136,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580390-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580391-0",
+      "hashType": "SHA256",
+      "hashValue": "fb693eb9612d5e039a7a0fc5a183d0407cc2bce5617e7e22d2bd56caa5191e5f",
+      "fileSize": 116736,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580391-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580392-0",
+      "hashType": "SHA256",
+      "hashValue": "27972d636b05a794d17cb3203d537bcf7c379fafd1802792e7fb8e72f130a0c4",
+      "fileSize": 103424,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580392-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580393-0",
+      "hashType": "SHA256",
+      "hashValue": "4e0209b4f5990148f5d6dee47dbc7021bf78a782b85cef4d6c8be22d698b884f",
+      "fileSize": 135680,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580393-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580394-0",
+      "hashType": "SHA256",
+      "hashValue": "227faeb770ba538fb85692b3dfcd00f76a0a5205d1594bd0969a1e535ee90ee1",
+      "fileSize": 87552,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580394-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580395-0",
+      "hashType": "SHA256",
+      "hashValue": "25a2549031cb97b8a3b569b1263c903c6c0247f7fff866e7ec63f0add1b4921c",
+      "fileSize": 113664,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580395-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580396-0",
+      "hashType": "SHA256",
+      "hashValue": "33ba9f103186b6e52d8d69499512e7fbac9096e7c5278838127488acc3b669a9",
+      "fileSize": 79872,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580396-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580397-0",
+      "hashType": "SHA256",
+      "hashValue": "0df9d223d6bf3e1c4ba8fec7522dceb63902d1f9ddd7c26da1560da54dce2f3b",
+      "fileSize": 113664,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580397-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580398-0",
+      "hashType": "SHA256",
+      "hashValue": "7a6488dd13936e505ec738dcc84b9fec57a5e46aab8aff59b8cfad8f599ea86a",
+      "fileSize": 148992,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580398-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580399-0",
+      "hashType": "SHA256",
+      "hashValue": "c68f420b5a5e085a508a2529ac001284a255090920a0236df1b5656d010966e8",
+      "fileSize": 79360,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580399-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580400-0",
+      "hashType": "SHA256",
+      "hashValue": "fe42139748c8e9ba27a812466d9395b3a0818b0cd7b41d6769cb7239e57219fb",
+      "fileSize": 94208,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580400-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580401-0",
+      "hashType": "SHA256",
+      "hashValue": "964762416840738b1235ed4ae479a4b117b8cdcc762a6737e83bc2062c0cf236",
+      "fileSize": 25088,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580401-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580402-0",
+      "hashType": "SHA256",
+      "hashValue": "2b27f2faae9de6330f17f60a1d19f9831336f57fdfef06c3b8876498882624a6",
+      "fileSize": 90112,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580402-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580403-0",
+      "hashType": "SHA256",
+      "hashValue": "28a9a86f0f0a3cc4383c9f6632ee0129309afe4102d0cee1a110702a95dc0022",
+      "fileSize": 25600,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580403-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580404-0",
+      "hashType": "SHA256",
+      "hashValue": "cdee0daa816f179e74c90c850abd427fbfe0888dcfbc38bf21173f543cdcdc66",
+      "fileSize": 86016,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580404-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580405-0",
+      "hashType": "SHA256",
+      "hashValue": "03f22bf2f33d1032959ca68aad78ccecc201a4e5f07f446f9d1284a60fbe3361",
+      "fileSize": 22528,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580405-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580406-0",
+      "hashType": "SHA256",
+      "hashValue": "31d86f77137f0b3697af03dd28d6552258314cecd3c1d9dc18fcf609eb24229a",
+      "fileSize": 90112,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580406-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580407-0",
+      "hashType": "SHA256",
+      "hashValue": "7d51e97251917d5def89d77aa318f82603548afc8bde906efc1b445a47585c7b",
+      "fileSize": 30208,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580407-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580408-0",
+      "hashType": "SHA256",
+      "hashValue": "1097e1d562341858e241f1f67788534c0e340a2dc2e75237d57e3f473e024464",
+      "fileSize": 86016,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580408-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580409-0",
+      "hashType": "SHA256",
+      "hashValue": "c3d8ffbb4ecdf6486da175e5381e855d8224acd339199c1057846bd5b74badac",
+      "fileSize": 21504,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580409-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580410-0",
+      "hashType": "SHA256",
+      "hashValue": "53ecd7b9879f12d17c88089fcf796c85ca29ea4639e34b8ca96819517c2a059a",
+      "fileSize": 4608,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580410-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580411-0",
+      "hashType": "SHA256",
+      "hashValue": "b7902809a15c4c3864a14f009768693c66f9e9234204b873d29a87f4c3009a50",
+      "fileSize": 30208,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580411-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580412-0",
+      "hashType": "SHA256",
+      "hashValue": "2a1f2034e80421359e3bf65cbd12a55a95bd00f2eb86cf2c2d287711ee1d56ad",
+      "fileSize": 86016,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580412-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580413-0",
+      "hashType": "SHA256",
+      "hashValue": "e1dff24af5bfc991dca21b4e3a19ffbc069176d674179eef691afc6b1ac6f805",
+      "fileSize": 53248,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580413-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580414-0",
+      "hashType": "SHA256",
+      "hashValue": "8f5b97124de9fce16e2cfecb7dd2e171824c9e07546db7b3bee7c5f2c92ceda9",
+      "fileSize": 90112,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580414-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580415-0",
+      "hashType": "SHA256",
+      "hashValue": "25eec68fc9f0d8d1b5d72c9eae7bee29035918e9dcbeab13e276dec4b2ad2a56",
+      "fileSize": 86016,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580415-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580416-0",
+      "hashType": "SHA256",
+      "hashValue": "9191e9bc8b64af9545b0e6e2ac022ad20b7905a6b327f768d822ff62233f3726",
+      "fileSize": 114688,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580416-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580417-0",
+      "hashType": "SHA256",
+      "hashValue": "7b4986aee8f5c4dca255431902907b36408f528f6c0f7d7fa21f079fa0a42e09",
+      "fileSize": 118784,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580417-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580418-0",
+      "hashType": "SHA256",
+      "hashValue": "ef906b8a8ad9dca7407e0a467b32d7f7cf32814210964be2bfb5b0e6d2ca1998",
+      "fileSize": 90112,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580418-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580419-0",
+      "hashType": "SHA256",
+      "hashValue": "69dcc150468f7707cc8ef618a4cea4643a817171babfba9290395ada9611c63c",
+      "fileSize": 358912,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580419-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580420-0",
+      "hashType": "SHA256",
+      "hashValue": "9022a6ece80e75a58a7e41b44aa27497ea3f8e4713c0af5e0887d60cde1fe3ba",
+      "fileSize": 430080,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580420-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580421-0",
+      "hashType": "SHA256",
+      "hashValue": "26215bc56dc31d2466d72f1f4e1b6388e62606e9949bc41c28968fcb9a9d60a6",
+      "fileSize": 57328,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580421-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580422-0",
+      "hashType": "SHA256",
+      "hashValue": "b2daf9058fdc5e2affd5a409aebb90343ddde4239331d3de8edabeafdb3a48fa",
+      "fileSize": 29696,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580422-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580423-0",
+      "hashType": "SHA256",
+      "hashValue": "137749c0fbb8c12d1a650f0bfc73be2739ff084165d02e4cb68c6496d828bf1d",
+      "fileSize": 94208,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580423-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580424-0",
+      "hashType": "SHA256",
+      "hashValue": "45e5e1ea3456d7852f5c610c7f4447776b9f15b56df7e3a53d57996123e0cebf",
+      "fileSize": 171520,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580424-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580425-0",
+      "hashType": "SHA256",
+      "hashValue": "4254ee5e688fc09bdc72bcc9c51b1524a2bb25a9fb841feaf03bc7ec1a9975bf",
+      "fileSize": 246272,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580425-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580426-0",
+      "hashType": "SHA256",
+      "hashValue": "f7a886ee10ee6f9c6be48c20f370514be62a3fd2da828b0dff44ff3d485ff5c5",
+      "fileSize": 41600,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580426-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580427-0",
+      "hashType": "SHA256",
+      "hashValue": "aadfa0b1aec4456b10e4fb82f5cfa918dbf4e87d19a02bcc576ac499dda0fb68",
+      "fileSize": 26624,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580427-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580428-0",
+      "hashType": "SHA256",
+      "hashValue": "00f782e2d4b901f0d860c3da00e154d5f0ccaf2fe758c61a27b1c0a85a927a34",
+      "fileSize": 8192,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580428-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580429-0",
+      "hashType": "SHA256",
+      "hashValue": "dfd5768a4825d1c7329c2e262fde27e2b3d9c810653585b058fcf9efa9815964",
+      "fileSize": 49152,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580429-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580430-0",
+      "hashType": "SHA256",
+      "hashValue": "fda57a2ba99bc610d3ff71b2d0ea2829915eabca168df99709a8fdd24288c5e5",
+      "fileSize": 102400,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580430-0"
+    },
+    {
+      "signatureName": "Win.Malware.Agent-5580431-0",
+      "hashType": "SHA256",
+      "hashValue": "12c082f74c0916a0e926488642236de3a12072a18d29c97bead15bb301f4b3f8",
+      "fileSize": 33408,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Agent-5580431-0"
+    },
+    {
+      "signatureName": "Win.Malware.Locky-5280214-0",
+      "hashType": "SHA256",
+      "hashValue": "562ede9a8a48e6adf8a8a882e13c3453592eb866c3bc1e88aa96435190fb17ed",
+      "fileSize": 19018,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Malware.Locky-5280214-0"
+    },
+    {
+      "signatureName": "Andr.Malware.07b4d792ed-6335797-0",
+      "hashType": "SHA256",
+      "hashValue": "07b4d792ed3196613810f2db132d8c7a249b0a608388a5d3997811763fb067a2",
+      "fileSize": 2511702,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "andr",
+      "description": "ClamAV SHA-256: Andr.Malware.07b4d792ed-6335797-0"
+    },
+    {
+      "signatureName": "Andr.Malware.11f5ea21a1-6335970-0",
+      "hashType": "SHA256",
+      "hashValue": "11f5ea21a1cd741099d7e667041494879e3920850d2838c2d6f26edf9192a7e4",
+      "fileSize": 2511703,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "andr",
+      "description": "ClamAV SHA-256: Andr.Malware.11f5ea21a1-6335970-0"
+    },
+    {
+      "signatureName": "Win.Trojan.PackedBankerImplant-6336793-0",
+      "hashType": "SHA256",
+      "hashValue": "0ce1eac877cdd87fea25050b0780e354fe3b7d6ca96c505b2cd36ca319dc6cab",
+      "fileSize": 4501504,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Trojan.PackedBankerImplant-6336793-0"
+    },
+    {
+      "signatureName": "Doc.Exploit.CVE_2018_5028-6640873-0",
+      "hashType": "SHA256",
+      "hashValue": "280df81ff52e201f2f0183a829c530072b73765a54fb0f842c1d14a536ede9d8",
+      "fileSize": 138808,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "doc",
+      "description": "ClamAV SHA-256: Doc.Exploit.CVE_2018_5028-6640873-0"
+    },
+    {
+      "signatureName": "Win.Tool.Scanline-6683779-0",
+      "hashType": "SHA256",
+      "hashValue": "bb65d1c281a14cb78c3388359f441751042ddd1502c09ee271e2185df1984fa5",
+      "fileSize": 78848,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Tool.Scanline-6683779-0"
+    },
+    {
+      "signatureName": "Win.Trojan.Generic-6683780-0",
+      "hashType": "SHA256",
+      "hashValue": "1a51521684654cb197aa19390dba7ba29ba7e15bc49ae73b0c9a6c993234ff85",
+      "fileSize": 57344,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Trojan.Generic-6683780-0"
+    },
+    {
+      "signatureName": "Win.Trojan.Generic-6683781-0",
+      "hashType": "SHA256",
+      "hashValue": "1a38960c50c3c04da759b77fb5c4b01bae5c64b20d47ae13b0acb6cde9592ce7",
+      "fileSize": 45056,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Trojan.Generic-6683781-0"
+    },
+    {
+      "signatureName": "Win.Trojan.Generic-6683782-0",
+      "hashType": "SHA256",
+      "hashValue": "5fbce4a05071c87a819bfd91a0e7c68ea6471c0b3ecb2ea9cebabde4abf41602",
+      "fileSize": 55808,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Trojan.Generic-6683782-0"
+    },
+    {
+      "signatureName": "Win.Trojan.Banking-6741913-0",
+      "hashType": "SHA256",
+      "hashValue": "2a1af665f4692b8ce5330e7b0271cfd3514b468a92d60d032095aebebc9b34c5",
+      "fileSize": 434063,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Trojan.Banking-6741913-0"
+    },
+    {
+      "signatureName": "Win.Trojan.Banking-6741914-0",
+      "hashType": "SHA256",
+      "hashValue": "3b237b8a76dce85e63c006db94587f979af01fbda753ae88c13af5c63c625a12",
+      "fileSize": 150528,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Trojan.Banking-6741914-0"
+    },
+    {
+      "signatureName": "Win.Trojan.Banking-6741915-0",
+      "hashType": "SHA256",
+      "hashValue": "46d77483071c145819b5a8ee206df89493fbe8de7847f2869b085b5a3cb04d2c",
+      "fileSize": 150528,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Trojan.Banking-6741915-0"
+    },
+    {
+      "signatureName": "Win.Trojan.Banking-6741917-0",
+      "hashType": "SHA256",
+      "hashValue": "7b241c6c12e4944a53c84814598695acc788dfd059d423801ff23d1a9ed7bbd2",
+      "fileSize": 150528,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Trojan.Banking-6741917-0"
+    },
+    {
+      "signatureName": "Win.Trojan.Banking-6741918-0",
+      "hashType": "SHA256",
+      "hashValue": "91781126feeae4d1a783f3103dd5ed0f8fc4f2f8e6f51125d1bfc06683b01c39",
+      "fileSize": 150528,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Trojan.Banking-6741918-0"
+    },
+    {
+      "signatureName": "Win.Trojan.Banking-6741919-0",
+      "hashType": "SHA256",
+      "hashValue": "bce660e64ebdf5d4095cee631d0e5eafbdf052505bc5ff546c6fbbb627dbff51",
+      "fileSize": 150016,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Trojan.Banking-6741919-0"
+    },
+    {
+      "signatureName": "Win.Exploit.CVE_2018_8522-6748032-0",
+      "hashType": "SHA256",
+      "hashValue": "b7afb715a5f039371632ff3d5e71191ad57a13d3536837d2ead13aef67d7be4e",
+      "fileSize": 7908,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Exploit.CVE_2018_8522-6748032-0"
+    },
+    {
+      "signatureName": "Unix.Exploit.CVE_2018_1273-6869176-0",
+      "hashType": "SHA256",
+      "hashValue": "2bcc9fff40053ab356ddde6de55077f8bf83d8dfa6d129c250f521eb170dc123",
+      "fileSize": 2141224,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "unix",
+      "description": "ClamAV SHA-256: Unix.Exploit.CVE_2018_1273-6869176-0"
+    },
+    {
+      "signatureName": "Win.Trojan.Agent-7030754-0",
+      "hashType": "SHA256",
+      "hashValue": "bf01c6dc0ea0d5445987f2138d20b8813750a5ddd155bb72dda9523b6396c66d",
+      "fileSize": 6,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Trojan.Agent-7030754-0"
+    },
+    {
+      "signatureName": "Win.Trojan.JhoneRAT-7545045-0",
+      "hashType": "SHA256",
+      "hashValue": "4228a5719a75be2d6658758fc063bd07c1774b44c10b00b958434421616f1548",
+      "fileSize": 14421942,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "win",
+      "description": "ClamAV SHA-256: Win.Trojan.JhoneRAT-7545045-0"
+    },
+    {
+      "signatureName": "Unix.Dropper.DarkNexus-7667670-0",
+      "hashType": "SHA256",
+      "hashValue": "2114560a1f3528c556a19f616b9c34b1fc8e07f5436c14433415f17f7b158755",
+      "fileSize": 43980,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "unix",
+      "description": "ClamAV SHA-256: Unix.Dropper.DarkNexus-7667670-0"
+    },
+    {
+      "signatureName": "Unix.Dropper.DarkNexus-7667675-0",
+      "hashType": "SHA256",
+      "hashValue": "f0595aaee8c7f8562bcfecfb6a1d7fc972e0e9802c40bc7c0375e567751dd4df",
+      "fileSize": 42876,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "unix",
+      "description": "ClamAV SHA-256: Unix.Dropper.DarkNexus-7667675-0"
+    },
+    {
+      "signatureName": "Unix.Dropper.DarkNexus-7667677-0",
+      "hashType": "SHA256",
+      "hashValue": "fe948719ee697da8c92404a8e5a1dacdb1ce5589bdc8f39ab7703a0d34dc58b0",
+      "fileSize": 76084,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "unix",
+      "description": "ClamAV SHA-256: Unix.Dropper.DarkNexus-7667677-0"
+    },
+    {
+      "signatureName": "Unix.Dropper.DarkNexus-7667680-0",
+      "hashType": "SHA256",
+      "hashValue": "4660c261e8f68dbd574c910df1e48941252176c434b8714375eb6201548ecb3e",
+      "fileSize": 43828,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "unix",
+      "description": "ClamAV SHA-256: Unix.Dropper.DarkNexus-7667680-0"
+    },
+    {
+      "signatureName": "Unix.Dropper.DarkNexus-7667681-0",
+      "hashType": "SHA256",
+      "hashValue": "6af10ce18e02e021aa14f541f42f548c4f7c7382210620574439496d063a3197",
+      "fileSize": 42940,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "unix",
+      "description": "ClamAV SHA-256: Unix.Dropper.DarkNexus-7667681-0"
+    },
+    {
+      "signatureName": "Unix.Dropper.DarkNexus-7667684-0",
+      "hashType": "SHA256",
+      "hashValue": "09e6beb52a63f64553e6427c57f4bfd105d673428ae1ab97e12a96c53e1bdbe7",
+      "fileSize": 76964,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "unix",
+      "description": "ClamAV SHA-256: Unix.Dropper.DarkNexus-7667684-0"
+    },
+    {
+      "signatureName": "Unix.Dropper.DarkNexus-7667688-0",
+      "hashType": "SHA256",
+      "hashValue": "bbf5490000400118b27f157a5aea3bb149b3e24ad10989e132319ff9da3d31e5",
+      "fileSize": 53164,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "unix",
+      "description": "ClamAV SHA-256: Unix.Dropper.DarkNexus-7667688-0"
+    },
+    {
+      "signatureName": "Unix.Dropper.DarkNexus-7667689-0",
+      "hashType": "SHA256",
+      "hashValue": "3fb6b9e1fdcaa8a3b9abb9660bbbf8bdb16661b013c898d868d1cbeb2aecca63",
+      "fileSize": 45484,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "unix",
+      "description": "ClamAV SHA-256: Unix.Dropper.DarkNexus-7667689-0"
+    },
+    {
+      "signatureName": "Unix.Dropper.DarkNexus-7667690-0",
+      "hashType": "SHA256",
+      "hashValue": "de760e297b11773bb85deff4330a445a2ab9fe6538543e3d41a936707a4e9af4",
+      "fileSize": 43964,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "unix",
+      "description": "ClamAV SHA-256: Unix.Dropper.DarkNexus-7667690-0"
+    },
+    {
+      "signatureName": "Unix.Dropper.DarkNexus-7667696-0",
+      "hashType": "SHA256",
+      "hashValue": "97c0d804532763b957ba0b126f1479e48feb4c915701a693025137aa2e610103",
+      "fileSize": 76084,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "unix",
+      "description": "ClamAV SHA-256: Unix.Dropper.DarkNexus-7667696-0"
+    },
+    {
+      "signatureName": "Unix.Dropper.DarkNexus-7667698-0",
+      "hashType": "SHA256",
+      "hashValue": "794ca491f740511785ca647ece6930fd5395673e14a50f9cc70e530cda6397f9",
+      "fileSize": 42796,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "unix",
+      "description": "ClamAV SHA-256: Unix.Dropper.DarkNexus-7667698-0"
+    },
+    {
+      "signatureName": "Unix.Dropper.DarkNexus-7667699-0",
+      "hashType": "SHA256",
+      "hashValue": "cf881e50cee6af1e7422956fdc22dc51727cdb9ed456f5bcfdad44785967a96e",
+      "fileSize": 79312,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "unix",
+      "description": "ClamAV SHA-256: Unix.Dropper.DarkNexus-7667699-0"
+    },
+    {
+      "signatureName": "Unix.Dropper.DarkNexus-7667706-0",
+      "hashType": "SHA256",
+      "hashValue": "42bb033665e8864141c43ccc9d18e5f3a61186f114654ef59919f9834fb11dda",
+      "fileSize": 43924,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "unix",
+      "description": "ClamAV SHA-256: Unix.Dropper.DarkNexus-7667706-0"
+    },
+    {
+      "signatureName": "Unix.Dropper.DarkNexus-7667710-0",
+      "hashType": "SHA256",
+      "hashValue": "6907fa41a6d7c9a7fc4ab55ff2d6e671a69b7b76f27bc0d6a3392e45e2cfc04b",
+      "fileSize": 77028,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "unix",
+      "description": "ClamAV SHA-256: Unix.Dropper.DarkNexus-7667710-0"
+    },
+    {
+      "signatureName": "Unix.Dropper.DarkNexus-7667713-0",
+      "hashType": "SHA256",
+      "hashValue": "6baaebc351f7d1104afb2f168d14896c1a377c89bf1ea650f46325e6dc6df575",
+      "fileSize": 45364,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "unix",
+      "description": "ClamAV SHA-256: Unix.Dropper.DarkNexus-7667713-0"
+    },
+    {
+      "signatureName": "Unix.Dropper.DarkNexus-7667714-0",
+      "hashType": "SHA256",
+      "hashValue": "54c57bada3252de24a8fbb773ce517c21fdcce9deee24cb4f12320168bf79e84",
+      "fileSize": 73756,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "unix",
+      "description": "ClamAV SHA-256: Unix.Dropper.DarkNexus-7667714-0"
+    },
+    {
+      "signatureName": "Unix.Dropper.DarkNexus-7667716-0",
+      "hashType": "SHA256",
+      "hashValue": "4492a9620d429d0c23ed91debfe3c55c4b9cc2d3c2db317570c3ef39ed902257",
+      "fileSize": 77168,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "unix",
+      "description": "ClamAV SHA-256: Unix.Dropper.DarkNexus-7667716-0"
+    },
+    {
+      "signatureName": "Unix.Dropper.DarkNexus-7667718-0",
+      "hashType": "SHA256",
+      "hashValue": "36e7873870bcb5211f651b7f43c5f610d2fe4a884b743962f7e5e1a3a7b8772e",
+      "fileSize": 51204,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "unix",
+      "description": "ClamAV SHA-256: Unix.Dropper.DarkNexus-7667718-0"
+    },
+    {
+      "signatureName": "Unix.Dropper.DarkNexus-7667723-0",
+      "hashType": "SHA256",
+      "hashValue": "464e3c77eb95ee8f59a2d165c0081572d8f04a64bb4db9b195bbe0864fdc912f",
+      "fileSize": 51104,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "unix",
+      "description": "ClamAV SHA-256: Unix.Dropper.DarkNexus-7667723-0"
+    },
+    {
+      "signatureName": "Unix.Dropper.DarkNexus-7667728-0",
+      "hashType": "SHA256",
+      "hashValue": "ac3bd662791cfb3e3450c79a967f9988701b0e39e90021fdd4c160cf20f1971d",
+      "fileSize": 43672,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "unix",
+      "description": "ClamAV SHA-256: Unix.Dropper.DarkNexus-7667728-0"
+    },
+    {
+      "signatureName": "Unix.Dropper.DarkNexus-7667729-0",
+      "hashType": "SHA256",
+      "hashValue": "acebe51f1437d8421fa64a82c58adc2e428eaba71ddd5cd820ee3db8787078f5",
+      "fileSize": 77632,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "unix",
+      "description": "ClamAV SHA-256: Unix.Dropper.DarkNexus-7667729-0"
+    },
+    {
+      "signatureName": "Unix.Dropper.DarkNexus-7667733-0",
+      "hashType": "SHA256",
+      "hashValue": "3d8d179a1c3341b243b5492837ed41a24764601320ad5a18f1366b9ab75cbaa3",
+      "fileSize": 51472,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "unix",
+      "description": "ClamAV SHA-256: Unix.Dropper.DarkNexus-7667733-0"
+    },
+    {
+      "signatureName": "Unix.Dropper.DarkNexus-7667742-0",
+      "hashType": "SHA256",
+      "hashValue": "d1a76aca6921d79c6b4aa75a66caa37c350815e1e142518065ac5c1d39bb4993",
+      "fileSize": 77004,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "unix",
+      "description": "ClamAV SHA-256: Unix.Dropper.DarkNexus-7667742-0"
+    },
+    {
+      "signatureName": "Unix.Dropper.DarkNexus-7667743-0",
+      "hashType": "SHA256",
+      "hashValue": "13750d86aebfa4df8176fb56b68ad515db024842ab2dd9a2cfa7f540f0849cc1",
+      "fileSize": 45364,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "unix",
+      "description": "ClamAV SHA-256: Unix.Dropper.DarkNexus-7667743-0"
+    },
+    {
+      "signatureName": "Unix.Dropper.DarkNexus-7667748-0",
+      "hashType": "SHA256",
+      "hashValue": "6f53f87b8ef009531f121d55d3625ae31a5f74f54dcfaef74ff11ee6e0b0fd40",
+      "fileSize": 75996,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "unix",
+      "description": "ClamAV SHA-256: Unix.Dropper.DarkNexus-7667748-0"
+    },
+    {
+      "signatureName": "Doc.Downloader.AllBlue00-7730449-0",
+      "hashType": "SHA256",
+      "hashValue": "6e0d22391eae79056b379a178a279677d1e622b1af8257e27032b552cb3fda90",
+      "fileSize": 35394,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "doc",
+      "description": "ClamAV SHA-256: Doc.Downloader.AllBlue00-7730449-0"
+    },
+    {
+      "signatureName": "Doc.Downloader.GreenboxDE00-7902121-0",
+      "hashType": "SHA256",
+      "hashValue": "4690d3a8eaf7e664f57a8d64361dbf036e0b7d3807702d641aa537a54498e2f6",
+      "fileSize": 59448,
+      "fileType": "SHA256",
+      "severity": "critical",
+      "family": "doc",
+      "description": "ClamAV SHA-256: Doc.Downloader.GreenboxDE00-7902121-0"
     }
-  ]
+  ],
+  "addClamAVHashDatabase": {
+    "url": "https://raw.githubusercontent.com/Aethel-Guard/embergard-feeds/main/clamav-md5-hashes.json",
+    "hashType": "MD5",
+    "count": 369659,
+    "description": "Full ClamAV MD5 hash database — 369,659 hashes for Win/Doc/Pdf/Xls/Html/Archive/Email/Swf/Img/Js"
+  }
 }
