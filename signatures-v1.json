@@ -1,26 +1,857 @@
 {
   "version": 2,
-  "generated": "2026-08-08",
-  "signatures": [
-    {"signatureName": "Trojan.Banker.Anubis", "hashType": "SHA256", "hashValue": "f4e1e7c9b2a3d4e5f67890abcdef0123456789abcdef0123456789abcdef012", "fileSize": 0, "fileType": "APK", "severity": 5, "family": "Anubis", "description": "Banking trojan targeting financial apps with overlay attacks"},
-    {"signatureName": "Trojan.Banker.Cerberus", "hashType": "SHA256", "hashValue": "a1b2c3d4e5f67890abcdef0123456789abcdef0123456789abcdef012345678", "fileSize": 0, "fileType": "APK", "severity": 5, "family": "Cerberus", "description": "Banking trojan with accessibility-driven overlay attacks"},
-    {"signatureName": "Trojan.Banker.Alien", "hashType": "SHA256", "hashValue": "b2c3d4e5f67890abcdef0123456789abcdef0123456789abcdef012345678901", "fileSize": 0, "fileType": "APK", "severity": 5, "family": "Alien", "description": "Banking trojan with overlay and accessibility service abuse"},
-    {"signatureName": "Trojan.Spyware.Pegasus", "hashType": "SHA256", "hashValue": "c3d4e5f67890abcdef0123456789abcdef0123456789abcdef012345678901234", "fileSize": 0, "fileType": "APK", "severity": 5, "family": "Pegasus", "description": "Commercial spyware targeting journalists and activists"},
-    {"signatureName": "Trojan.Spyware.Stratos", "hashType": "SHA256", "hashValue": "d4e5f67890abcdef0123456789abcdef0123456789abcdef0123456789012345", "fileSize": 0, "fileType": "APK", "severity": 5, "family": "Stratos", "description": "Spyware with full device monitoring capabilities"},
-    {"signatureName": "Trojan.Stalkerware.SpyFone", "hashType": "SHA256", "hashValue": "e5f67890abcdef0123456789abcdef0123456789abcdef012345678901234567", "fileSize": 0, "fileType": "APK", "severity": 5, "family": "SpyFone", "description": "Commercial stalkerware with full device monitoring"},
-    {"signatureName": "Trojan.Stalkerware.Cocospy", "hashType": "SHA256", "hashValue": "f67890abcdef0123456789abcdef0123456789abcdef012345678901234567890", "fileSize": 0, "fileType": "APK", "severity": 5, "family": "Cocospy", "description": "Stalkerware with location, SMS, and call monitoring"},
-    {"signatureName": "Trojan.Stalkerware.Spyic", "hashType": "SHA256", "hashValue": "07890abcdef0123456789abcdef0123456789abcdef0123456789012345678901", "fileSize": 0, "fileType": "APK", "severity": 5, "family": "Spyic", "description": "Stalkerware with remote monitoring capabilities"},
-    {"signatureName": "Backdoor.Android.TemiRat", "hashType": "SHA256", "hashValue": "1890abcdef0123456789abcdef0123456789abcdef01234567890123456789012", "fileSize": 0, "fileType": "APK", "severity": 5, "family": "TemiRat", "description": "Remote access trojan with full device control"},
-    {"signatureName": "Ransom.Android.Lockdroid", "hashType": "SHA256", "hashValue": "290abcdef0123456789abcdef0123456789abcdef012345678901234567890123", "fileSize": 0, "fileType": "APK", "severity": 5, "family": "Lockdroid", "description": "Screen-locking ransomware demanding payment"},
-    {"signatureName": "Trojan.Banker.Flubot", "hashType": "SHA256", "hashValue": "30abcdef0123456789abcdef0123456789abcdef0123456789012345678901234", "fileSize": 0, "fileType": "APK", "severity": 5, "family": "Flubot", "description": "Banking trojan spreading via SMS phishing"},
-    {"signatureName": "Trojan.Spyware.Basban", "hashType": "SHA256", "hashValue": "41abcdef0123456789abcdef0123456789abcdef01234567890123456789012345", "fileSize": 0, "fileType": "APK", "severity": 5, "family": "Basban", "description": "Spyware targeting banking credentials"},
-    {"signatureName": "Trojan.Dialer.Pretator", "hashType": "SHA256", "hashValue": "52abcdef0123456789abcdef0123456789abcdef01234567890123456789012345", "fileSize": 0, "fileType": "APK", "severity": 4, "family": "Pretator", "description": "Premium-rate SMS dialer fraud"},
-    {"signatureName": "Adware.Android.Ewind", "hashType": "SHA256", "hashValue": "63abcdef0123456789abcdef0123456789abcdef01234567890123456789012345", "fileSize": 0, "fileType": "APK", "severity": 3, "family": "Ewind", "description": "Aggressive adware displaying ads outside host app"},
-    {"signatureName": "PUA.Android.FakeApp", "hashType": "SHA256", "hashValue": "74abcdef0123456789abcdef0123456789abcdef01234567890123456789012345", "fileSize": 0, "fileType": "APK", "severity": 3, "family": "FakeApp", "description": "Potentially unwanted app impersonating legitimate software"},
-    {"signatureName": "Worm.Android.DroidKungFu", "hashType": "SHA256", "hashValue": "85abcdef0123456789abcdef0123456789abcdef01234567890123456789012345", "fileSize": 0, "fileType": "APK", "severity": 4, "family": "DroidKungFu", "description": "Self-replicating worm with root exploit capability"},
-    {"signatureName": "Exploit.Android.MasterKey", "hashType": "SHA256", "hashValue": "96abcdef0123456789abcdef0123456789abcdef01234567890123456789012345", "fileSize": 0, "fileType": "APK", "severity": 4, "family": "MasterKey", "description": "APK signature exploitation framework"},
-    {"signatureName": "Dropper.Android.Hydrogen", "hashType": "SHA256", "hashValue": "a7abcdef0123456789abcdef0123456789abcdef01234567890123456789012345", "fileSize": 0, "fileType": "APK", "severity": 4, "family": "Hydrogen", "description": "Drops secondary payloads after installation"},
-    {"signatureName": "Trojan.Banker.TrickBot", "hashType": "SHA256", "hashValue": "b8abcdef0123456789abcdef0123456789abcdef01234567890123456789012345", "fileSize": 0, "fileType": "APK", "severity": 5, "family": "TrickBot", "description": "Banking trojan with credential theft"},
-    {"signatureName": "Trojan.Spyware.Dominion", "hashType": "SHA256", "hashValue": "c9abcdef0123456789abcdef0123456789abcdef01234567890123456789012345", "fileSize": 0, "fileType": "APK", "severity": 5, "family": "Dominion", "description": "Spyware with keylogging and screen capture"}
-  ]
+  "deltaFrom": 1,
+  "timestamp": 1787864151578,
+  "description": "v2 feed — expanded malware signatures, phishing domains, tracker domains, harvest SDK patterns",
+  "addMalwarePackages": [
+    {
+      "packageName": "com.android.systemupdate",
+      "family": "banking_trojan",
+      "severity": "critical"
+    },
+    {
+      "packageName": "com.android.systemupdateservice",
+      "family": "banking_trojan",
+      "severity": "critical"
+    },
+    {
+      "packageName": "com.systemupdate.android",
+      "family": "banking_trojan",
+      "severity": "critical"
+    },
+    {
+      "packageName": "com.android.security.core",
+      "family": "spyware",
+      "severity": "critical"
+    },
+    {
+      "packageName": "com.remoteadministration.client",
+      "family": "spyware",
+      "severity": "high"
+    },
+    {
+      "packageName": "com.keylogger.android",
+      "family": "keylogger",
+      "severity": "critical"
+    },
+    {
+      "packageName": "com.callrecorder.hidden",
+      "family": "surveillance",
+      "severity": "high"
+    },
+    {
+      "packageName": "com.sms.forwarder",
+      "family": "banking_trojan",
+      "severity": "critical"
+    },
+    {
+      "packageName": "com.sms.interceptor",
+      "family": "banking_trojan",
+      "severity": "critical"
+    },
+    {
+      "packageName": "com.bankbot.android",
+      "family": "banking_trojan",
+      "severity": "critical"
+    },
+    {
+      "packageName": "com.anubis.banking",
+      "family": "banking_trojan",
+      "severity": "critical"
+    },
+    {
+      "packageName": "com.cerberus.banking",
+      "family": "banking_trojan",
+      "severity": "critical"
+    },
+    {
+      "packageName": "com.ransomware.locker",
+      "family": "ransomware",
+      "severity": "critical"
+    },
+    {
+      "packageName": "com.screenlocker.pin",
+      "family": "ransomware",
+      "severity": "high"
+    },
+    {
+      "packageName": "com.fakeupdate.system",
+      "family": "fake_update",
+      "severity": "high"
+    },
+    {
+      "packageName": "com.flashplayer.update",
+      "family": "fake_update",
+      "severity": "high"
+    },
+    {
+      "packageName": "com.adware.popup",
+      "family": "adware",
+      "severity": "medium"
+    },
+    {
+      "packageName": "com.adware.pushads",
+      "family": "adware",
+      "severity": "medium"
+    },
+    {
+      "packageName": "com.tracker.analytics",
+      "family": "tracker",
+      "severity": "medium"
+    },
+    {
+      "packageName": "com.tracker.telemetry",
+      "family": "tracker",
+      "severity": "medium"
+    },
+    {
+      "packageName": "com.dataharvest.collector",
+      "family": "tracker",
+      "severity": "high"
+    },
+    {
+      "packageName": "com.stealth.downloader",
+      "family": "stealth",
+      "severity": "high"
+    },
+    {
+      "packageName": "com.silent.installer",
+      "family": "stealth",
+      "severity": "high"
+    },
+    {
+      "packageName": "com.rootkit.helper",
+      "family": "stealth",
+      "severity": "critical"
+    },
+    {
+      "packageName": "com.dropper.payload",
+      "family": "stealth",
+      "severity": "critical"
+    },
+    {
+      "packageName": "com.bankredirect.phishing",
+      "family": "banking_trojan",
+      "severity": "critical"
+    },
+    {
+      "packageName": "com.overlay.attack",
+      "family": "banking_trojan",
+      "severity": "critical"
+    },
+    {
+      "packageName": "com.accessibility.malware",
+      "family": "banking_trojan",
+      "severity": "critical"
+    },
+    {
+      "packageName": "com.notification.malware",
+      "family": "stealth",
+      "severity": "high"
+    },
+    {
+      "packageName": "com.smsreader.spy",
+      "family": "spyware",
+      "severity": "high"
+    }
+  ],
+  "addMalwarePrefixes": [
+    {
+      "prefix": "com.anubis",
+      "family": "banking_trojan",
+      "severity": "critical"
+    },
+    {
+      "prefix": "com.cerberus",
+      "family": "banking_trojan",
+      "severity": "critical"
+    },
+    {
+      "prefix": "com.bankbot",
+      "family": "banking_trojan",
+      "severity": "critical"
+    },
+    {
+      "prefix": "com.ransomware",
+      "family": "ransomware",
+      "severity": "critical"
+    },
+    {
+      "prefix": "com.keylogger",
+      "family": "keylogger",
+      "severity": "critical"
+    },
+    {
+      "prefix": "com.flashplayer.update",
+      "family": "fake_update",
+      "severity": "high"
+    },
+    {
+      "prefix": "com.systemupdate",
+      "family": "banking_trojan",
+      "severity": "critical"
+    },
+    {
+      "prefix": "com.remoteadministration",
+      "family": "spyware",
+      "severity": "high"
+    }
+  ],
+  "addStalkerwarePackages": [
+    {
+      "packageName": "com.mspy.android",
+      "category": "commercial_stalkerware",
+      "severity": "critical"
+    },
+    {
+      "packageName": "com.mspy.lite",
+      "category": "commercial_stalkerware",
+      "severity": "high"
+    },
+    {
+      "packageName": "com.flexispy.android",
+      "category": "commercial_stalkerware",
+      "severity": "critical"
+    },
+    {
+      "packageName": "com.flexispy.droid",
+      "category": "commercial_stalkerware",
+      "severity": "critical"
+    },
+    {
+      "packageName": "com.highster.android",
+      "category": "commercial_stalkerware",
+      "severity": "high"
+    },
+    {
+      "packageName": "com.highstermobile",
+      "category": "commercial_stalkerware",
+      "severity": "high"
+    },
+    {
+      "packageName": "com.hoverwatch.android",
+      "category": "commercial_stalkerware",
+      "severity": "high"
+    },
+    {
+      "packageName": "com.hoverwatch",
+      "category": "commercial_stalkerware",
+      "severity": "high"
+    },
+    {
+      "packageName": "com.eyezy.android",
+      "category": "commercial_stalkerware",
+      "severity": "high"
+    },
+    {
+      "packageName": "com.eyezy",
+      "category": "commercial_stalkerware",
+      "severity": "high"
+    },
+    {
+      "packageName": "com.monqster.android",
+      "category": "commercial_stalkerware",
+      "severity": "high"
+    },
+    {
+      "packageName": "com.spyera.android",
+      "category": "commercial_stalkerware",
+      "severity": "critical"
+    },
+    {
+      "packageName": "com.spyera",
+      "category": "commercial_stalkerware",
+      "severity": "critical"
+    },
+    {
+      "packageName": "com.pcTattletale",
+      "category": "commercial_stalkerware",
+      "severity": "critical"
+    },
+    {
+      "packageName": "com.pctattletale",
+      "category": "commercial_stalkerware",
+      "severity": "critical"
+    },
+    {
+      "packageName": "com.cocospy.android",
+      "category": "commercial_stalkerware",
+      "severity": "high"
+    },
+    {
+      "packageName": "com.cocospy",
+      "category": "commercial_stalkerware",
+      "severity": "high"
+    },
+    {
+      "packageName": "com.minspy.android",
+      "category": "commercial_stalkerware",
+      "severity": "high"
+    },
+    {
+      "packageName": "com.spyic.android",
+      "category": "commercial_stalkerware",
+      "severity": "high"
+    },
+    {
+      "packageName": "com.spyzie.android",
+      "category": "commercial_stalkerware",
+      "severity": "high"
+    },
+    {
+      "packageName": "com.fonemonitor.android",
+      "category": "commercial_stalkerware",
+      "severity": "high"
+    },
+    {
+      "packageName": "com.spytox.android",
+      "category": "commercial_stalkerware",
+      "severity": "medium"
+    },
+    {
+      "packageName": "com.kidsguard.android",
+      "category": "commercial_stalkerware",
+      "severity": "high"
+    },
+    {
+      "packageName": "com.kidsguardpro",
+      "category": "commercial_stalkerware",
+      "severity": "high"
+    },
+    {
+      "packageName": "com.onespy.android",
+      "category": "commercial_stalkerware",
+      "severity": "critical"
+    },
+    {
+      "packageName": "com.truthspy",
+      "category": "commercial_stalkerware",
+      "severity": "high"
+    },
+    {
+      "packageName": "com.ikeymonitor",
+      "category": "commercial_stalkerware",
+      "severity": "critical"
+    },
+    {
+      "packageName": "com.ikeymonitor.android",
+      "category": "commercial_stalkerware",
+      "severity": "critical"
+    },
+    {
+      "packageName": "com.thespyapp",
+      "category": "commercial_stalkerware",
+      "severity": "high"
+    },
+    {
+      "packageName": "com.appmia",
+      "category": "commercial_stalkerware",
+      "severity": "high"
+    },
+    {
+      "packageName": "com.appmia.android",
+      "category": "commercial_stalkerware",
+      "severity": "high"
+    },
+    {
+      "packageName": "com.copy9.android",
+      "category": "commercial_stalkerware",
+      "severity": "high"
+    },
+    {
+      "packageName": "com.copy9",
+      "category": "commercial_stalkerware",
+      "severity": "high"
+    },
+    {
+      "packageName": "com.autoforward",
+      "category": "commercial_stalkerware",
+      "severity": "medium"
+    },
+    {
+      "packageName": "com.teenorbit",
+      "category": "commercial_stalkerware",
+      "severity": "medium"
+    },
+    {
+      "packageName": "com.teensafe",
+      "category": "commercial_stalkerware",
+      "severity": "medium"
+    },
+    {
+      "packageName": "com.mmxmobile",
+      "category": "commercial_stalkerware",
+      "severity": "medium"
+    },
+    {
+      "packageName": "com.secureteen",
+      "category": "commercial_stalkerware",
+      "severity": "medium"
+    },
+    {
+      "packageName": "com.qustodio",
+      "category": "parental_control",
+      "severity": "medium"
+    },
+    {
+      "packageName": "com.netspy.android",
+      "category": "commercial_stalkerware",
+      "severity": "high"
+    },
+    {
+      "packageName": "com.androidlost",
+      "category": "commercial_stalkerware",
+      "severity": "high"
+    },
+    {
+      "packageName": "com.smscallrelay",
+      "category": "commercial_stalkerware",
+      "severity": "high"
+    },
+    {
+      "packageName": "com.androidlostapp",
+      "category": "commercial_stalkerware",
+      "severity": "high"
+    }
+  ],
+  "addPhishingDomains": [
+    {
+      "domain": "paypal-security-update.com",
+      "category": "phishing",
+      "severity": "critical"
+    },
+    {
+      "domain": "apple-id-locked.com",
+      "category": "phishing",
+      "severity": "critical"
+    },
+    {
+      "domain": "bing-rewards-claim.com",
+      "category": "phishing",
+      "severity": "high"
+    },
+    {
+      "domain": "microsft-online.com",
+      "category": "phishing",
+      "severity": "critical"
+    },
+    {
+      "domain": "google-security-alert.com",
+      "category": "phishing",
+      "severity": "critical"
+    },
+    {
+      "domain": "amazon-security-verify.com",
+      "category": "phishing",
+      "severity": "critical"
+    },
+    {
+      "domain": "netflix-account-verify.com",
+      "category": "phishing",
+      "severity": "high"
+    },
+    {
+      "domain": "facebook-security-check.com",
+      "category": "phishing",
+      "severity": "high"
+    },
+    {
+      "domain": "instagram-account-verify.com",
+      "category": "phishing",
+      "severity": "high"
+    },
+    {
+      "domain": "whatsapp-web-login.com",
+      "category": "phishing",
+      "severity": "high"
+    },
+    {
+      "domain": "linkedin-security-alert.com",
+      "category": "phishing",
+      "severity": "high"
+    },
+    {
+      "domain": "revolut-verify.com",
+      "category": "phishing",
+      "severity": "critical"
+    },
+    {
+      "domain": "ing-banking-verify.com",
+      "category": "phishing",
+      "severity": "critical"
+    },
+    {
+      "domain": "abn-amro-verify.com",
+      "category": "phishing",
+      "severity": "critical"
+    },
+    {
+      "domain": "rabobank-verify.com",
+      "category": "phishing",
+      "severity": "critical"
+    },
+    {
+      "domain": "binance-security-check.com",
+      "category": "phishing",
+      "severity": "critical"
+    },
+    {
+      "domain": "coinbase-verify-account.com",
+      "category": "phishing",
+      "severity": "critical"
+    },
+    {
+      "domain": "metamask-verify.com",
+      "category": "phishing",
+      "severity": "critical"
+    },
+    {
+      "domain": "ledger-recovery-phrase.com",
+      "category": "phishing",
+      "severity": "critical"
+    },
+    {
+      "domain": "trezor-wallet-verify.com",
+      "category": "phishing",
+      "severity": "critical"
+    }
+  ],
+  "addTrackerDomains": [
+    {
+      "domain": "doubleclick.net",
+      "category": "ad_tracker",
+      "severity": "medium"
+    },
+    {
+      "domain": "googleadservices.com",
+      "category": "ad_tracker",
+      "severity": "medium"
+    },
+    {
+      "domain": "googlesyndication.com",
+      "category": "ad_tracker",
+      "severity": "medium"
+    },
+    {
+      "domain": "google-analytics.com",
+      "category": "analytics",
+      "severity": "medium"
+    },
+    {
+      "domain": "facebook.com/tr",
+      "category": "social_tracker",
+      "severity": "medium"
+    },
+    {
+      "domain": "connect.facebook.net",
+      "category": "social_tracker",
+      "severity": "medium"
+    },
+    {
+      "domain": "adservice.google.com",
+      "category": "ad_tracker",
+      "severity": "medium"
+    },
+    {
+      "domain": "ads.yahoo.com",
+      "category": "ad_tracker",
+      "severity": "medium"
+    },
+    {
+      "domain": "ads.microsoft.com",
+      "category": "ad_tracker",
+      "severity": "medium"
+    },
+    {
+      "domain": "ads.amazon.com",
+      "category": "ad_tracker",
+      "severity": "medium"
+    },
+    {
+      "domain": "app-measurement.com",
+      "category": "analytics",
+      "severity": "medium"
+    },
+    {
+      "domain": "analytics.localytics.com",
+      "category": "analytics",
+      "severity": "medium"
+    },
+    {
+      "domain": "flurry.com",
+      "category": "analytics",
+      "severity": "medium"
+    },
+    {
+      "domain": "mixpanel.com",
+      "category": "analytics",
+      "severity": "medium"
+    },
+    {
+      "domain": "segment.io",
+      "category": "analytics",
+      "severity": "medium"
+    },
+    {
+      "domain": "amplitude.com",
+      "category": "analytics",
+      "severity": "medium"
+    },
+    {
+      "domain": "branch.io",
+      "category": "attribution",
+      "severity": "medium"
+    },
+    {
+      "domain": "adjust.com",
+      "category": "attribution",
+      "severity": "medium"
+    },
+    {
+      "domain": "appsflyer.com",
+      "category": "attribution",
+      "severity": "medium"
+    },
+    {
+      "domain": "kochava.com",
+      "category": "attribution",
+      "severity": "medium"
+    },
+    {
+      "domain": "sentry.io",
+      "category": "error_tracking",
+      "severity": "low"
+    },
+    {
+      "domain": "bugsnag.com",
+      "category": "error_tracking",
+      "severity": "low"
+    },
+    {
+      "domain": "crashlytics.com",
+      "category": "error_tracking",
+      "severity": "low"
+    }
+  ],
+  "addTrackerPackages": [
+    {
+      "packageName": "com.google.android.gms.ads",
+      "category": "ad_tracker"
+    },
+    {
+      "packageName": "com.facebook.ads",
+      "category": "ad_tracker"
+    },
+    {
+      "packageName": "com.flurry.android",
+      "category": "analytics"
+    }
+  ],
+  "addHarvestSdkPatterns": [
+    {
+      "sdkName": "Facebook SDK",
+      "pattern": "com.facebook",
+      "severity": "high"
+    },
+    {
+      "sdkName": "Google Analytics",
+      "pattern": "com.google.analytics",
+      "severity": "medium"
+    },
+    {
+      "sdkName": "Firebase Analytics",
+      "pattern": "com.google.firebase.analytics",
+      "severity": "medium"
+    },
+    {
+      "sdkName": "Flurry Analytics",
+      "pattern": "com.flurry.android",
+      "severity": "medium"
+    },
+    {
+      "sdkName": "Mixpanel",
+      "pattern": "com.mixpanel.android",
+      "severity": "medium"
+    },
+    {
+      "sdkName": "Amplitude",
+      "pattern": "com.amplitude.android",
+      "severity": "medium"
+    },
+    {
+      "sdkName": "Branch",
+      "pattern": "io.branch.referral",
+      "severity": "medium"
+    },
+    {
+      "sdkName": "Adjust",
+      "pattern": "com.adjust.sdk",
+      "severity": "medium"
+    },
+    {
+      "sdkName": "AppsFlyer",
+      "pattern": "com.appsflyer",
+      "severity": "medium"
+    },
+    {
+      "sdkName": "Kochava",
+      "pattern": "com.kochava.base",
+      "severity": "medium"
+    },
+    {
+      "sdkName": "Localytics",
+      "pattern": "com.localytics.android",
+      "severity": "medium"
+    },
+    {
+      "sdkName": "Segment",
+      "pattern": "com.segment.analytics",
+      "severity": "medium"
+    },
+    {
+      "sdkName": "Sentry",
+      "pattern": "io.sentry.android",
+      "severity": "low"
+    },
+    {
+      "sdkName": "Bugsnag",
+      "pattern": "com.bugsnag.android",
+      "severity": "low"
+    },
+    {
+      "sdkName": "Crashlytics",
+      "pattern": "com.crashlytics.android",
+      "severity": "low"
+    },
+    {
+      "sdkName": "Unity Ads",
+      "pattern": "com.unity3d.ads",
+      "severity": "medium"
+    },
+    {
+      "sdkName": "IronSource",
+      "pattern": "com.ironsource",
+      "severity": "medium"
+    },
+    {
+      "sdkName": "AppLovin",
+      "pattern": "com.applovin",
+      "severity": "medium"
+    },
+    {
+      "sdkName": "MoPub",
+      "pattern": "com.mopub",
+      "severity": "medium"
+    },
+    {
+      "sdkName": "AdColony",
+      "pattern": "com.adcolony",
+      "severity": "medium"
+    },
+    {
+      "sdkName": "Vungle",
+      "pattern": "com.vungle.warren",
+      "severity": "medium"
+    },
+    {
+      "sdkName": "Chartboost",
+      "pattern": "com.chartboost",
+      "severity": "medium"
+    },
+    {
+      "sdkName": "InMobi",
+      "pattern": "com.inmobi",
+      "severity": "medium"
+    },
+    {
+      "sdkName": "Tapjoy",
+      "pattern": "com.tapjoy",
+      "severity": "medium"
+    },
+    {
+      "sdkName": "AdMob",
+      "pattern": "com.google.android.gms.ads",
+      "severity": "medium"
+    }
+  ],
+  "addHarvestPermissionCombos": [
+    {
+      "combo": "ACCESSIBILITY_OVERLAY_SMS",
+      "permissions": [
+        "BIND_ACCESSIBILITY_SERVICE",
+        "SYSTEM_ALERT_WINDOW",
+        "READ_SMS"
+      ],
+      "severity": "critical"
+    },
+    {
+      "combo": "SMS_CONTACTS_LOCATION",
+      "permissions": [
+        "READ_SMS",
+        "READ_CONTACTS",
+        "ACCESS_FINE_LOCATION"
+      ],
+      "severity": "high"
+    },
+    {
+      "combo": "OVERLAY_INSTALL",
+      "permissions": [
+        "SYSTEM_ALERT_WINDOW",
+        "REQUEST_INSTALL_PACKAGES"
+      ],
+      "severity": "high"
+    },
+    {
+      "combo": "ACCESSIBILITY_INSTALL",
+      "permissions": [
+        "BIND_ACCESSIBILITY_SERVICE",
+        "REQUEST_INSTALL_PACKAGES"
+      ],
+      "severity": "critical"
+    },
+    {
+      "combo": "SMS_FORWARD_CALL_LOG",
+      "permissions": [
+        "READ_SMS",
+        "SEND_SMS",
+        "READ_CALL_LOG"
+      ],
+      "severity": "critical"
+    },
+    {
+      "combo": "LOCATION_CAMERA_MIC",
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "CAMERA",
+        "RECORD_AUDIO"
+      ],
+      "severity": "high"
+    },
+    {
+      "combo": "CONTACTS_ACCOUNTS_SMS",
+      "permissions": [
+        "READ_CONTACTS",
+        "GET_ACCOUNTS",
+        "READ_SMS"
+      ],
+      "severity": "high"
+    },
+    {
+      "combo": "OVERLAY_ACCESSIBILITY",
+      "permissions": [
+        "SYSTEM_ALERT_WINDOW",
+        "BIND_ACCESSIBILITY_SERVICE"
+      ],
+      "severity": "critical"
+    }
+  ],
+  "removeMalwarePackages": [],
+  "removeMalwarePrefixes": [],
+  "removeStalkerwarePackages": [],
+  "removePhishingDomains": [],
+  "removeTrackerDomains": [],
+  "removeTrackerPackages": [],
+  "removeHarvestSdkPatterns": [],
+  "removeHarvestPermissionCombos": [],
+  "sig_ed25519": "Y30r5SLINTqMslh+DprZssSMSRthm3rC2Sqmch2+Pi+l3l6Y/KKiM6kv48FMblCr8IVtemYOXfYxscY4MiclCw=="
 }
