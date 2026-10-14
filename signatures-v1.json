@@ -1,8 +1,8 @@
 {
-  "version": 5,
-  "deltaFrom": 1,
-  "timestamp": 1787864151578,
-  "description": "v5 feed — 173 Android patterns + 185 SHA-256 hashes in-feed, 369,659 MD5 hashes via separate DB",
+  "version": 6,
+  "deltaFrom": 5,
+  "timestamp": 1791954144073,
+  "description": "v6 feed \u2014 30 Android patterns + 445 SHA-256 hashes in-feed (260 real Android malware IOCs from AndroidMalware_2020 + Zimperium Iranian banking malware), 4 MD5 hashes via separate DB",
   "addMalwarePackages": [
     {
       "packageName": "com.android.systemupdate",
@@ -4261,12 +4261,2612 @@
       "severity": "critical",
       "family": "doc",
       "description": "ClamAV SHA-256: Doc.Downloader.GreenboxDE00-7902121-0"
+    },
+    {
+      "signatureName": "Trojan.Android.Coybot.AM2020.1",
+      "hashType": "SHA256",
+      "hashValue": "058de750a4a2402104e4bd22179f8432050c98ea88b5bfec2f065f6dc2a950f9",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "coybot",
+      "description": "Coybot Android malware sample (public IOC list)"
+    },
+    {
+      "signatureName": "Trojan.Android.Coybot.AM2020.2",
+      "hashType": "SHA256",
+      "hashValue": "bf20ad4fcc9fb6910e481a199bb7da649bcd29dd91846692875a3a2c737b83d9",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "coybot",
+      "description": "Coybot Android malware sample (public IOC list)"
+    },
+    {
+      "signatureName": "Trojan.Android.PremiumRateSMS.AM2020.3",
+      "hashType": "SHA256",
+      "hashValue": "cf661506978f088f276a5a5bc4f0ea71101f99941840dd0864b2068ee2eb2271",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "premiumratesms",
+      "description": "PremiumRateSMS Android malware sample (public IOC list)"
+    },
+    {
+      "signatureName": "Trojan.Android.Joker.AM2020.4",
+      "hashType": "SHA256",
+      "hashValue": "d36be817f7dce6712d1e84b6e1a49e7a9210092749c508d7b1121854ebf018d8",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "joker",
+      "description": "Premium-rate SMS and subscription fraud trojan"
+    },
+    {
+      "signatureName": "Trojan.Android.Joker.AM2020.5",
+      "hashType": "SHA256",
+      "hashValue": "5ec214704b63d93181932d389f4ed76bd730bd05e912518a1357a413d6fa96b1",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "joker",
+      "description": "Premium-rate SMS and subscription fraud trojan"
+    },
+    {
+      "signatureName": "Trojan.Android.Mobok.AM2020.6",
+      "hashType": "SHA256",
+      "hashValue": "a9b6ad7233eed5b592a78e3a37e3143bd185554b4e9166aa2fa5ff0f99b1248c",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 4,
+      "family": "mobok",
+      "description": "Banking trojan with credential theft"
+    },
+    {
+      "signatureName": "Trojan.Android.Mobok.AM2020.7",
+      "hashType": "SHA256",
+      "hashValue": "e750766c16eca9501f07efe044db683dc08551c42d399ae8cc9e585345df8469",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 4,
+      "family": "mobok",
+      "description": "Banking trojan with credential theft"
+    },
+    {
+      "signatureName": "Trojan.Android.Anubis.AM2020.8",
+      "hashType": "SHA256",
+      "hashValue": "c38c675a4342052a18e969e839cce797fef842b9d53032882966a3731ced0a70",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "anubis",
+      "description": "Banking trojan targeting financial apps with overlay attacks"
+    },
+    {
+      "signatureName": "Trojan.Android.AdFraud.AM2020.9",
+      "hashType": "SHA256",
+      "hashValue": "a26ce61f3137307ab3456d6312d823bec7a3924d830d8764778803ad48843467",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 4,
+      "family": "adfraud",
+      "description": "Ad fraud and click fraud malware"
+    },
+    {
+      "signatureName": "Trojan.Android.AdFraud.AM2020.10",
+      "hashType": "SHA256",
+      "hashValue": "230f66be98f30155934379022cc8656e25917c4fd5c08a36903539ce1bd36f4c",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 4,
+      "family": "adfraud",
+      "description": "Ad fraud and click fraud malware"
+    },
+    {
+      "signatureName": "Trojan.Android.AdFraud.AM2020.11",
+      "hashType": "SHA256",
+      "hashValue": "381620b5fc7c3a2d73e0135c6b4ebd91e117882f804a4794f3a583b3b0c19bc5",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 4,
+      "family": "adfraud",
+      "description": "Ad fraud and click fraud malware"
+    },
+    {
+      "signatureName": "Trojan.Android.Cerberus.AM2020.12",
+      "hashType": "SHA256",
+      "hashValue": "6363beadf56ad162bc58fa8f1c5393223cd94221af0b3b2e9db0d718c3fae085",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "cerberus",
+      "description": "Banking trojan with accessibility-driven overlay attacks"
+    },
+    {
+      "signatureName": "Trojan.Android.Cerberus.AM2020.13",
+      "hashType": "SHA256",
+      "hashValue": "fe23b30a9296477557f027d4710e81eb1b08d65a1a83b6d81a4ed6128ed6e2a0",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "cerberus",
+      "description": "Banking trojan with accessibility-driven overlay attacks"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.14",
+      "hashType": "SHA256",
+      "hashValue": "534bdae8cbeef8c6e63a6483cf175ba82d8e80e20c5c91d72e57f9cb6ba54915",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.15",
+      "hashType": "SHA256",
+      "hashValue": "910492afba030fcdafb83bed18983a73da129c8b091521b3899e13b7e51913da",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.16",
+      "hashType": "SHA256",
+      "hashValue": "ac8075e94d38640b4873d4d722a0e1abccb122b12fcf99d36f6fadae169d6f50",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.17",
+      "hashType": "SHA256",
+      "hashValue": "2be1d1eac9e1cd13267f8df69be532b5b068294ebe388ef2ffde73a5650ec7f3",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.18",
+      "hashType": "SHA256",
+      "hashValue": "a2ea37838a7a61845570c429a5a7afd0d64fadeef06e34e74101ec60037a29c1",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.19",
+      "hashType": "SHA256",
+      "hashValue": "0dc5effcb3ed91d177ae7958919319c73e288c439863922ad98c2750b3ba477b",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.20",
+      "hashType": "SHA256",
+      "hashValue": "4aaf79e803a1fa102dc65c31cd7bae59c10cc87c431ee8fe47bb06d9c7c86220",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.21",
+      "hashType": "SHA256",
+      "hashValue": "f59852f6d81cc791036410c2f96f7413056ef9c722fe1441a053d07128a54f30",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.22",
+      "hashType": "SHA256",
+      "hashValue": "f955ce0fea556e2ef599a1c451e97243b7ee49940e7c1d3dbd4ec2df766cc398",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.23",
+      "hashType": "SHA256",
+      "hashValue": "9d7f84575b9f0eb373ab755f7824b60d0ed29ad2f8ae38e1e38d5a07abf0d126",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.24",
+      "hashType": "SHA256",
+      "hashValue": "0e09e4b9736d41aaaa0c58790becf11dd27b1541454906e24f3ba7b239fe4bcd",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.25",
+      "hashType": "SHA256",
+      "hashValue": "53b861ccb1a13e4682675cbb06693416e3c0c29bfbe0d464a3bcab18ab1ff423",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.26",
+      "hashType": "SHA256",
+      "hashValue": "0854ab32ba625b8694619e315073a59178899dcf5205de5c3b6c4ff480718cad",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.27",
+      "hashType": "SHA256",
+      "hashValue": "7f3845d53d87a30e2b8191d2d846c2cdaeb1100d3db7804bcd1e1e0cd05cba09",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.28",
+      "hashType": "SHA256",
+      "hashValue": "1b0b604a557bd3663867dcfe05a92b75184cc54f687c19ac9df137ae99f959df",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.29",
+      "hashType": "SHA256",
+      "hashValue": "227b77a8075c814d58efdabab5052bcb2476481bc05eda01dbefe82244c0a9e4",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.30",
+      "hashType": "SHA256",
+      "hashValue": "e710b3dd9218006026cb4f8d34f389afa1ab65dd90cafc5870a548c410716bb9",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.31",
+      "hashType": "SHA256",
+      "hashValue": "350e8565fb72cad217ba4ee53c763ca199522a217981c56bad7c5c15e6eb55f0",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.32",
+      "hashType": "SHA256",
+      "hashValue": "9a2fc971670ea5a8475442dac980acf5a30272481f6d53937c2cfbb0ee9cbef4",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.33",
+      "hashType": "SHA256",
+      "hashValue": "5f64670857d6336a40aacac3e6e7defba28e10721e7388df8efef5dbd9ff11b0",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.34",
+      "hashType": "SHA256",
+      "hashValue": "8ab04730599e43b6ed12491df55a82e83f10d450e324b02a8c63ad35728ab023",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.35",
+      "hashType": "SHA256",
+      "hashValue": "3a5a3d7318f4154cf9836afe655439d650e772036cda8063933db74d67c8b2a8",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.36",
+      "hashType": "SHA256",
+      "hashValue": "06b8709e0a674b61b59b3ce3a04351bf32c77b40be367caee47de92cd1b0ac45",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.37",
+      "hashType": "SHA256",
+      "hashValue": "0e32c09c089a1c670f4484eb30315dd910d98650a21aceba786012e4c2e72a63",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.38",
+      "hashType": "SHA256",
+      "hashValue": "460abfaff7450483ca1d25b89c140df9eb6148b10e99b6d5a6746b4f0b962724",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.39",
+      "hashType": "SHA256",
+      "hashValue": "120ceef9eaf06df9947284a6841e145107ac445467d5bcecbc58e7055d91e507",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.40",
+      "hashType": "SHA256",
+      "hashValue": "e172d906f4a8730e59c3b7cfd6ab0c3737cb91a8c3aff5636c694964312a999b",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.41",
+      "hashType": "SHA256",
+      "hashValue": "c3e87d37caf6c5c40bc2ba23330ac83509ee48902b97a4357633c13e984f5140",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.42",
+      "hashType": "SHA256",
+      "hashValue": "88e303ad34f0d13a50811738196630ed612ed80e98dd9dcc6d51d3b54a2c4af1",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.43",
+      "hashType": "SHA256",
+      "hashValue": "39ff7788229e5913d7f81b02b5f343b6220ec9820f017a55f077112cec6c986a",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.44",
+      "hashType": "SHA256",
+      "hashValue": "74637702e367a49678358b5a8212fa51493f87f9e4c4b504733913aaf85b6822",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.45",
+      "hashType": "SHA256",
+      "hashValue": "7752989749bf60f0a8f304d0e9583a1b3aaaa5da1931d2ac2ea6c1de61d68886",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.46",
+      "hashType": "SHA256",
+      "hashValue": "2b53c83a77b57f592a5577d31aa31238dbc31c401f0b403c3b85bda349f0307a",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.47",
+      "hashType": "SHA256",
+      "hashValue": "40f57466e164c146886ee79851d354b89649cfd7191c1c71547165dbd8591841",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.48",
+      "hashType": "SHA256",
+      "hashValue": "732b61fb26c878502bb29b7be9d0a8cb7f9bdc024e5efd0d0152ef2b84807905",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.49",
+      "hashType": "SHA256",
+      "hashValue": "629bfeb4dbd96e2c9826c62135757e59053b721f2d907593bf9de1f58f73c517",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.50",
+      "hashType": "SHA256",
+      "hashValue": "3291f16dd1367eee022c4867858de99429ca087aa59779e8de3ea50f38e5b28c",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.51",
+      "hashType": "SHA256",
+      "hashValue": "218758faa053c4cc39c8570ab97ac905315162c878a32f8bf95a26ddb9ccd6be",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.52",
+      "hashType": "SHA256",
+      "hashValue": "3fe930672c2bbef2e5b1fc83d7fce0fe42919f9aab623bf63963511569a9ce99",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.53",
+      "hashType": "SHA256",
+      "hashValue": "c7bc5a6ad4159030b09e45b6d334353e73353e745848e2e3b9955b847634c725",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.54",
+      "hashType": "SHA256",
+      "hashValue": "4bccda310cce0178943ae1c72a0834f8d35a8cf84adbf138fe077071b1bbcf5e",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.55",
+      "hashType": "SHA256",
+      "hashValue": "eea51ec320a1754dbb0132de4c83296fbc78453f5443b09ae3f17ff29268cd01",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.56",
+      "hashType": "SHA256",
+      "hashValue": "9ff22d414814a159f1fbc17e1d37a3c815851c4a46bcfac699753130b34e77c9",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.57",
+      "hashType": "SHA256",
+      "hashValue": "1bad8f904f486b45ceb721ab7e1760e7fd86226f247ed0e936e5c64e2379499c",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.58",
+      "hashType": "SHA256",
+      "hashValue": "12e27cabfca3ca8a95ad7a54e588d0a00c67fc029f4d46ecb71a65398078f5f0",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.59",
+      "hashType": "SHA256",
+      "hashValue": "632cd4992c5f00451a84d6396b7ae52882ed461ec16f787f1a291141eb4d6bf7",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.60",
+      "hashType": "SHA256",
+      "hashValue": "344fd789d634945935aa6e4e31d7e70fc44fa9dc30ab71ee71e29702dbdf827d",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.61",
+      "hashType": "SHA256",
+      "hashValue": "f7528dc3ca8c565f6ea4fa9fe125b4f36a1bcc60b9187f851bf74f155858916a",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.62",
+      "hashType": "SHA256",
+      "hashValue": "6fac639f5170aca4babb16787de9cb3f99f3d3a1f11ef6b1d2535b68dac995d5",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.63",
+      "hashType": "SHA256",
+      "hashValue": "31eb2c667594f4fd4de2f66a8786c75a275108121902a062c19a5a0cb6c53fb2",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.64",
+      "hashType": "SHA256",
+      "hashValue": "d050f783039acdf95d725c2589f338e6a3739d51c2dc6fedac8f84606eaa1f60",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.65",
+      "hashType": "SHA256",
+      "hashValue": "e8eac0a0102c9e4c08c613454d944e029fa2a32abd774eb28ace92040c5fbbae",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.66",
+      "hashType": "SHA256",
+      "hashValue": "ba854061e5c788fb703e8ce8ddee44841e940881f416c1e666b4d45ba9131f34",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.67",
+      "hashType": "SHA256",
+      "hashValue": "d159965eb828c41003cc0aaade4a06699444a13f2f3ac8295004341d4849a75d",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.68",
+      "hashType": "SHA256",
+      "hashValue": "1e900eddd8a0ed84e562e18b5b475e3eaa57202cff4058ba6c369237731a6c01",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.69",
+      "hashType": "SHA256",
+      "hashValue": "f983b40eb329ab6a137072508b501e34dd44282a1ed777acd81f27e8f5a0b41f",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.70",
+      "hashType": "SHA256",
+      "hashValue": "3259b7b32967a97e94526025e154c2f46b1ea5df7fc1baa77980fd5dcfd38855",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.71",
+      "hashType": "SHA256",
+      "hashValue": "9a5674dea734b00fa0cbef3326295d553ec9b970e7248d5c184c58685873c148",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.72",
+      "hashType": "SHA256",
+      "hashValue": "2653ca96c457afabcb44d56c3c5638a285a52596969502df6f1895c95a279171",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.73",
+      "hashType": "SHA256",
+      "hashValue": "8a1eab2ed6b5551f9aca7b02bf52135114ec1bc6613ae0fe6cbb42d3371913c5",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.74",
+      "hashType": "SHA256",
+      "hashValue": "aa551c7bbd470f50d2d39b5602780afe58d43075e60a37c1abd54e34bd6c155a",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.75",
+      "hashType": "SHA256",
+      "hashValue": "ebf3257d27d34a486475952f35c54da15b146fd33bd855a7addd1c8197cc322d",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.76",
+      "hashType": "SHA256",
+      "hashValue": "d199c49040741323d0f9355afd25fe5d393c0949da12d1b1d07dc424e57f5675",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.77",
+      "hashType": "SHA256",
+      "hashValue": "1242a7aec55e119fdb0d9aee7de4a832ab223b6bb7076daa8f797cf089900956",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.78",
+      "hashType": "SHA256",
+      "hashValue": "e47b3c82baba08cbaf07f9a33a1548d0dec1cbb8b80451fdeadb2ec2a423b1a1",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.79",
+      "hashType": "SHA256",
+      "hashValue": "59a9fe8a5603de50b361966a540857c3519fd487bfa3ba8a416b20687f28f73e",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.80",
+      "hashType": "SHA256",
+      "hashValue": "9ba83cb2334196e2d8df6b6bfe15ddcf13db642312cfecf42f19a4308e84b8fd",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.81",
+      "hashType": "SHA256",
+      "hashValue": "577a089153ce58645705528530ec37b9331a41a4903551b65261e5815e3ffc1e",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.82",
+      "hashType": "SHA256",
+      "hashValue": "9319ea936e8f7fd6a021eb2102b1cb04e3321393ea73363461c2edd7a9c39d30",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.83",
+      "hashType": "SHA256",
+      "hashValue": "5b3314f6a47888a66fee3e98b884e35160e01fd31c71c71d2fe01839adc3afed",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.84",
+      "hashType": "SHA256",
+      "hashValue": "9bc7e6bec5bc5fcd85d225bd56404e822e99828adfc0ff4e819728b62fde816c",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.85",
+      "hashType": "SHA256",
+      "hashValue": "b0a42c9ac9368c94e57d0a2165de8b4022aec01aacb2432838c7817e5c96dd6a",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.86",
+      "hashType": "SHA256",
+      "hashValue": "09e80bd5b83943a9f7dd2f75c2d9bbfd6dcfd4e18a944c3af33cf3ad045c2235",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.87",
+      "hashType": "SHA256",
+      "hashValue": "f99a226868f9f642f60c36581dbd6613a066805b42473805d7ece6f5ca84fa00",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.88",
+      "hashType": "SHA256",
+      "hashValue": "5eae85459afc7265a378b6c19b7e1e709f69c7ab29341ceed81764e0d2580113",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.89",
+      "hashType": "SHA256",
+      "hashValue": "82af44c12eb8fcb69fe1723eb746fae75862ca9279db20ab2f3f8f851d83706c",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.90",
+      "hashType": "SHA256",
+      "hashValue": "6ce550ba134dab78bc670df62ad55d0375d8f93b486a5f6cc1c7842e8e7f6f4f",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.91",
+      "hashType": "SHA256",
+      "hashValue": "8ed241b948ed5156519599a3c77f2edd03e9363bbd0af038e6927ed8fefe0c0b",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.92",
+      "hashType": "SHA256",
+      "hashValue": "0f09707ced487e0b927c00eb5a263a3d8fd8fa4d5cb1d852c8746ddcf4f579cc",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.93",
+      "hashType": "SHA256",
+      "hashValue": "c6611bff89ac8c832b75cf44b0361cf259eddc9611429b2716f83c10d6e1be89",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.94",
+      "hashType": "SHA256",
+      "hashValue": "5efff1f14d592d2945bc478eb650024ddf1cb4d47f1bee462c32429a1d9a8a0e",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.95",
+      "hashType": "SHA256",
+      "hashValue": "39a9caf6a072ce3217d487c46269cc9b1300943819b3dda638a68f1a276aea98",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.96",
+      "hashType": "SHA256",
+      "hashValue": "c446bb9f6ce85e66aa0e0618595eb9fd7ba0c359cfdba76940af5d9a59ef50e8",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.97",
+      "hashType": "SHA256",
+      "hashValue": "e81cac6b078bdbcbb9200f303ea650436a7c7e4bcd3b64c506e9137f9d862833",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.98",
+      "hashType": "SHA256",
+      "hashValue": "d0c5b2e5a171c2fd99719c468b8ad58f41043dfd049b33a449f1324796589624",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.99",
+      "hashType": "SHA256",
+      "hashValue": "a0bce2e60379183cde5d813a8e92d18319ae82fd86ae8a1f89f45569b0199047",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.100",
+      "hashType": "SHA256",
+      "hashValue": "b8afe4e4bbcb3fbc343ec390a8a12d3c21661cc81cafdea41a92e1c3caa078e4",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.101",
+      "hashType": "SHA256",
+      "hashValue": "fee1bc163592004c527c5934c8ca90f4733ea483c10cb0e35eb81b0678ebed7b",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.102",
+      "hashType": "SHA256",
+      "hashValue": "a092bd31c41c5908c0416d1e213f89ef5755a761e661fb8b8cface232f2f6bb7",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.103",
+      "hashType": "SHA256",
+      "hashValue": "7f0efa8ab02c621a27fe7c80059ccb95e6caea807fa744e71d2804842012b5bb",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.104",
+      "hashType": "SHA256",
+      "hashValue": "a92f841c14954800a652a6b12c0f97caed5bd635939b30989a0f1ef43712b096",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.105",
+      "hashType": "SHA256",
+      "hashValue": "b888c9396bfca9bc63983d6f13ff3919bfbd5bded9ca7ef71c75a559a7e895cf",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.106",
+      "hashType": "SHA256",
+      "hashValue": "b837ea1efad746cdf3ff7bf17c0ae2caa39fbe96e41f89e4fa4bddf862d71596",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.107",
+      "hashType": "SHA256",
+      "hashValue": "7805e178aef32aea16b73cf99e656d42bd908124c8d6363163f8e2e3837b124e",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.108",
+      "hashType": "SHA256",
+      "hashValue": "361f7866315942775fc70638f0bd2518ce8d7d8ece2d42300a3853245b450897",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.109",
+      "hashType": "SHA256",
+      "hashValue": "4bddb9801f9d10e33f855f45364b37ec94b34bb9bd7e38a5ff4a92ad3547c64c",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.110",
+      "hashType": "SHA256",
+      "hashValue": "83379d66284e630452319ec407f934641899935de9dc00dbed5bfc6b00659b51",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.111",
+      "hashType": "SHA256",
+      "hashValue": "4b604725d14e53b6ad61d00549b2129aeecbd46d4ea93a1d8c37050e6104616e",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.112",
+      "hashType": "SHA256",
+      "hashValue": "f3e68bee45e37a21580efd4b95805e11bcb68a4fc95739a8cc3fa03457cfe953",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.113",
+      "hashType": "SHA256",
+      "hashValue": "9c96e177b423f7ea7decfb0c64414d8c3b9a4ef48b2948c1507eaa3ad712cc5a",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.114",
+      "hashType": "SHA256",
+      "hashValue": "cc740238131d29f54286970c43ce59170775033ae2482e0e05a7bf194b299104",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.115",
+      "hashType": "SHA256",
+      "hashValue": "80b1156dea2ec4928b059ca78a25d70f0260fca9ee9a65b5c9efeba96672027b",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.116",
+      "hashType": "SHA256",
+      "hashValue": "fbaee035651cfd5283c3093f21cd03fa3ac6e605ea2bd01a2e735a14e6812c09",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.117",
+      "hashType": "SHA256",
+      "hashValue": "e77a4c01432b94d320efb87e02c2f7c1e04a8059caa1ac9722979317f60c668b",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.118",
+      "hashType": "SHA256",
+      "hashValue": "7e6471354c246ed38335d583776f19bb6f06664aefedc5590f699ae481ff959c",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.119",
+      "hashType": "SHA256",
+      "hashValue": "a943aa6b006ce95a1b323070a8c8d6ba9cfe74435d6f699951f3be4a5676dfaa",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.120",
+      "hashType": "SHA256",
+      "hashValue": "8ac918e2779445ea1f265e3129fc9f172f7e5f351bcba560f71d6918eee0e6e3",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.121",
+      "hashType": "SHA256",
+      "hashValue": "7069e75463ea95f39c92bd8d58a490f87f29fc4c2932b9715f3f140eb19d2ef2",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.122",
+      "hashType": "SHA256",
+      "hashValue": "69e5b9df558ba4fba8a86dce5ba03132de8f270b50392d1983c9e84bc5118291",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.123",
+      "hashType": "SHA256",
+      "hashValue": "f3727698fc6bd663cbe7d6dee650d053bdd9a46517fc07736796a6da44042300",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.124",
+      "hashType": "SHA256",
+      "hashValue": "60f689cfae5f023142bf922e8ffa98512a6f270cfb06ff687f8c94e8fcc9964a",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.125",
+      "hashType": "SHA256",
+      "hashValue": "05fe6e1d9b8a508fc9e7f09df4e0b6b7fa442b88987cc86dfa62a6282705ee05",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.126",
+      "hashType": "SHA256",
+      "hashValue": "fb6862dbb298dd38fd285466deadcc050f3baf508e0d0d46cdbd91323c037e0d",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.127",
+      "hashType": "SHA256",
+      "hashValue": "8f9b1d27a5a35193f1cf3b884fa1c4ea45318bfdb0cd302f0577cc8c83b2a03b",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.128",
+      "hashType": "SHA256",
+      "hashValue": "06048adea7cbc929f2177556b76f5048a1fab9a2cfd2b122832554ef47af5841",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.129",
+      "hashType": "SHA256",
+      "hashValue": "5979245e5120f624712b88823c619d79f1d8db11cc00983545f3260941883a19",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.130",
+      "hashType": "SHA256",
+      "hashValue": "f210384068ae47af76534c4720756fe9c9d4d9382e5a0ef1e5f115de6df0189f",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.131",
+      "hashType": "SHA256",
+      "hashValue": "6726db961a1cb3c9b1548a12c963b9a5fb888951b8be74abf5c91772cba97112",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.132",
+      "hashType": "SHA256",
+      "hashValue": "54e0907feba0a8bc3f80493896163d1817439bf86401fc5e214f7c4b351615e5",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.133",
+      "hashType": "SHA256",
+      "hashValue": "833d9e8f4bba92878316da70007437ffc7c1f2493d055acc67b19c34c90020cb",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.134",
+      "hashType": "SHA256",
+      "hashValue": "ad14a381040a897600a0ae1d1c850d67928a7a313da4f920af9500ebfd27210e",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.135",
+      "hashType": "SHA256",
+      "hashValue": "e89715cd4971e836bacb59cc89ab93c50720178502d5da50e851ec43e40d9be5",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.136",
+      "hashType": "SHA256",
+      "hashValue": "e7bfd71f93ed2d3aba9558c365ff9e4063e571077d773ba377b80e1e27c02427",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.137",
+      "hashType": "SHA256",
+      "hashValue": "bb40f0b6ec7242d7d88759eac6fe899aadf12aee70939dd2eecaa6ddd55e3554",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.138",
+      "hashType": "SHA256",
+      "hashValue": "629c30312bcdd136e82f76e7b7b157b0e26b951c1782ac775bd25271f88d924a",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.139",
+      "hashType": "SHA256",
+      "hashValue": "4cc4a54d63c17aab2b77d32a37702d8a46619fc9b5b93204712618115d1304df",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.140",
+      "hashType": "SHA256",
+      "hashValue": "887e6f37b0a3ab33283a2c3e0844527cec65893154fd9901c35ca18071ed6c53",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.141",
+      "hashType": "SHA256",
+      "hashValue": "5b76a3f44884ac44ee95b58e023db5660a891340bc25055b15a9f74fd7a9ce82",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.142",
+      "hashType": "SHA256",
+      "hashValue": "bbffbb629679bf5d866740b4f09195c4f4cc0c480e42db04669586e899b497b8",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.143",
+      "hashType": "SHA256",
+      "hashValue": "998189d106a932e567712b1c5e4fa7fc4ce021e5014a086db54feb1aef9a6a9f",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.144",
+      "hashType": "SHA256",
+      "hashValue": "8f3117ed6373ccabe522bb4390d6cbc6b3d4172f373021fb4a42a87c75d02f3f",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.145",
+      "hashType": "SHA256",
+      "hashValue": "d83d4b31f317d25727f20a292159ee82023ac6197e20ec8c798bca060d8d41fe",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.146",
+      "hashType": "SHA256",
+      "hashValue": "3f7fb56f641e3d22f1d8dbba418d084bb50559c8e6bc54451767fb84b4a66a24",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.147",
+      "hashType": "SHA256",
+      "hashValue": "d79d8b0dbf01176a7461f212aa85335ea240a99ebe1f45984d96b1dd0e498982",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.148",
+      "hashType": "SHA256",
+      "hashValue": "c4347f548b5ffc472911c1399be328f45517aa5d800d0ef1b509eb2898cffaed",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.149",
+      "hashType": "SHA256",
+      "hashValue": "1854ba8a38d1add867a1130bb279b73e06dde6649e557364c9aa33bf7a2562bb",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.150",
+      "hashType": "SHA256",
+      "hashValue": "564585d2e6b94bbbca178625e4bd546a1544d12a6331ef505d3236b1ed2aba0c",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.151",
+      "hashType": "SHA256",
+      "hashValue": "9bc427bfcf4d3f258031d0ae5fa3d08e6f3d37cda7b01238779658a7a6736fa6",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.152",
+      "hashType": "SHA256",
+      "hashValue": "d36fc3d7609ec941d9fb3131d400ddc6f384f8c6dc053c174750b43e5894275c",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.153",
+      "hashType": "SHA256",
+      "hashValue": "6cee5406b3a49eff42d0009515c11ab5f25383f199bc4f12b778021975bc44e2",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.154",
+      "hashType": "SHA256",
+      "hashValue": "bc9b3270ec027a1b0a4b28c88d1f9feaf2e95b6145d99e425652c1aae722ac6d",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.155",
+      "hashType": "SHA256",
+      "hashValue": "6c3dbd633097d8f18d464c652f8e574e99f4aa34416d860749d764476415163d",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.156",
+      "hashType": "SHA256",
+      "hashValue": "a0c1d8808a39d22045c201f90ce0c7572bdeab97630e31067718b10d18d8a177",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.157",
+      "hashType": "SHA256",
+      "hashValue": "14fb216f0f4b105cd32b6fcc01e28d7c64578384742fd1aa05bfd0c5d25ed06e",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.158",
+      "hashType": "SHA256",
+      "hashValue": "309d6c9105b89248357e8e6779eacbb83975f0b3bde31184651535eb4f5bc40d",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.159",
+      "hashType": "SHA256",
+      "hashValue": "05d9565347657e47cca7f511e2f8d6cf45ced78d3dbd36751251585e6eea8598",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.160",
+      "hashType": "SHA256",
+      "hashValue": "4e55a16633816109acf81fc37b0daec8bf02bca6e6cffe26b48aad68a4d967b2",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.161",
+      "hashType": "SHA256",
+      "hashValue": "5aa0fcce14fbbea437c36f1a52f274df658e8223ef0fde304ed21b8aa5480efb",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.162",
+      "hashType": "SHA256",
+      "hashValue": "e041b0edaf3608b4c9a7bb1ee41f5f36dc40b5107a32d73718a7736df85cc814",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.163",
+      "hashType": "SHA256",
+      "hashValue": "c4d94658d8fbeb19fc0682be53f24362117597cf2278f0436dd08bad561e02eb",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.164",
+      "hashType": "SHA256",
+      "hashValue": "0e413748fa3da5ab000916db4cf7a366cddd8ba8122e212f8f9eae8165eb69ce",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.165",
+      "hashType": "SHA256",
+      "hashValue": "c47ad4d7613ae18b6ed9a8c8f76b00034553be6b2c1fa8299957802a9d13cdfc",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.166",
+      "hashType": "SHA256",
+      "hashValue": "bec1eb3d14cc2a241649870b2f0f7101276047048057bc09a14fcdd73346ee8e",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.167",
+      "hashType": "SHA256",
+      "hashValue": "09d3fd17210ec4f15cb6fb63082b77c7e668eae36cfb3966822fd80acc91f059",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.168",
+      "hashType": "SHA256",
+      "hashValue": "efdb196c0bebdad8f951f482117d018f048dccbb6985c401399d387566b637d4",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.169",
+      "hashType": "SHA256",
+      "hashValue": "3b89a3bdc2cf9ee6ef028d55caa805b084be26ed7c34d7b5972fd8dac87dc5cd",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.170",
+      "hashType": "SHA256",
+      "hashValue": "ebbfac7937e42001729841e8ce37c478ce6d013b22a2db8ecafdb055918244ac",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.171",
+      "hashType": "SHA256",
+      "hashValue": "d625e5d615741f0fac8547c3caa54269a30aa8d405bd558acb5e04240f5385e7",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.172",
+      "hashType": "SHA256",
+      "hashValue": "0d55c74eb3bff9169d607eee9d27d8397eb57faf6dbce9e4d79dfb08331420b4",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.173",
+      "hashType": "SHA256",
+      "hashValue": "219836f31d0510a8e57cca7bd63ca2b2e6db1605f986365ba869b8ac0cc4a468",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.174",
+      "hashType": "SHA256",
+      "hashValue": "d0e6871c75c54e635fa3e8a69b2d00484e6df96576602250617f9a3d773424f0",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.175",
+      "hashType": "SHA256",
+      "hashValue": "47e8e2cc79a1b7a6debbccb3dee897dfbf4645dc13ed439f379604553b39e4e5",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.176",
+      "hashType": "SHA256",
+      "hashValue": "8d2e2c6251665cf6989e1462b3ae3f4eccd62ef72aa1eb21457b69d704794ee7",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.177",
+      "hashType": "SHA256",
+      "hashValue": "ce314dca803a8373b1124e476b4d8b06c3991ab4eb14dd8181559625be7ba725",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.178",
+      "hashType": "SHA256",
+      "hashValue": "9f364e72ed0a8822b1b9bd3b69b880e577c00ae6536d124eba29a47787511e44",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.179",
+      "hashType": "SHA256",
+      "hashValue": "3bf8f12fd8f8c007629d1653691ded3a927430c878942cb73c46f38a931bea13",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.180",
+      "hashType": "SHA256",
+      "hashValue": "2f895eab63d0c784f181123109781c96d6ae13005b3cc12518aee58b491b9d27",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.181",
+      "hashType": "SHA256",
+      "hashValue": "f74bbf9a1e0f236b683025ea80b021dddd53e72717bed3860b0a4a4522cc4453",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.182",
+      "hashType": "SHA256",
+      "hashValue": "0452cf97a7d6d3a7ca3daa127bbde93798cf251a5b5920a5978c4c332b79a1e5",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.183",
+      "hashType": "SHA256",
+      "hashValue": "258e87047e1a70faa0366a3213affa7cb6aa6a2c18d28bf250ed9b470a98462e",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.184",
+      "hashType": "SHA256",
+      "hashValue": "cad33e58893cee11846865f7ced6c1611bbdab8d6317b1f23dc03a7dafe5d6e9",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.185",
+      "hashType": "SHA256",
+      "hashValue": "a1252b65d9ac17116e2cf109d3ef09c0153bfd907a700bd947f67a92dca91a06",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.186",
+      "hashType": "SHA256",
+      "hashValue": "abb58be993923d07232d2229cd10856db0cb240d0ee650911702071b03d0b97b",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.187",
+      "hashType": "SHA256",
+      "hashValue": "22afdda7ef0271a4bbd2cb65e79b30b67dcb0ae993b75713ab6a9484ff2d9367",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.188",
+      "hashType": "SHA256",
+      "hashValue": "c42d0d35158273a9b1be901db2ac912b2812a39c723bdc127a05993c1e10519b",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.189",
+      "hashType": "SHA256",
+      "hashValue": "37010600f0b1c4a2cda7c88d355bdfc2eae75c84a09e70cfe46ced70c62999a1",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.190",
+      "hashType": "SHA256",
+      "hashValue": "954c84ffd5c2fc991dc7a3c033df21634a77a9cceb0e73fec3a023fb7187a0de",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.191",
+      "hashType": "SHA256",
+      "hashValue": "5a2e9be81c4ad120c92ef48852291a5c001c314c5383cb76847a5b03138fb2f5",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.192",
+      "hashType": "SHA256",
+      "hashValue": "507a817a93737700fb9f1f8770052bf5c3cdbc1ff0c4d7b0186c2f9c6956ed1e",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.193",
+      "hashType": "SHA256",
+      "hashValue": "d090e69eb02b4f24c7221bac84fbb23b2beea82b59f8a9c2670475ec35401366",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.194",
+      "hashType": "SHA256",
+      "hashValue": "2790e91e40ce0fac7abe06c3fd9f2bba4e8e0c8d1ece8970d1168b83dd2a4900",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.195",
+      "hashType": "SHA256",
+      "hashValue": "9532b24e7670ff7bc4b66a26fc6e641f1e5d562540dc3f8df17593d984591980",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.196",
+      "hashType": "SHA256",
+      "hashValue": "c10bc13f9f3dcf842b4bc04669a04d1176c3583e6f0efd2278e49d3c7ae9aad5",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.197",
+      "hashType": "SHA256",
+      "hashValue": "78cc3994cd1698171a6aa5505df8675588ae358b0f59d425115936a5b5e27e71",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.198",
+      "hashType": "SHA256",
+      "hashValue": "5dd9cfe5741e9fe4bacadbbde3130da91f9c97026416af82968caaca7286da57",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.199",
+      "hashType": "SHA256",
+      "hashValue": "b3fad32325b4fb27faac01b1b45b088b137ebe450c834ed5a42836b9114dc7f2",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.200",
+      "hashType": "SHA256",
+      "hashValue": "af49812c775a01feecb8a5ad8ffb4d59deaaef5a24c5dc375b9a678bb0c397a5",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.201",
+      "hashType": "SHA256",
+      "hashValue": "f022652f11d2b74dedf1bfba826e1ea47f670601be40f66b723b92eb59fb8d5a",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.202",
+      "hashType": "SHA256",
+      "hashValue": "3a9c0dd3269ff564e5c9776aaae55d540ab74ac11275ce81a61c7ff537473f89",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.203",
+      "hashType": "SHA256",
+      "hashValue": "581f53f89145bd87b143c2bba1b8217fed476d06e74e596a02598d22c657bed7",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.204",
+      "hashType": "SHA256",
+      "hashValue": "3054a165ad37385ada02b39d8a678c85d3310d8c153a876812003bbe4cd1f602",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.205",
+      "hashType": "SHA256",
+      "hashValue": "98c5e360a5c9108aecc77753c1c337ba1fed936f18e90536a9d9e15be5be42f6",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.206",
+      "hashType": "SHA256",
+      "hashValue": "134d98cd5f5d36c70ef65c13af83aeb0edffbfb0411c0c43047df948da3096be",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.207",
+      "hashType": "SHA256",
+      "hashValue": "4a6a0626a9d3c01f25b01d9cc1a399cbb15ad7826958b9ac9b7a01028e6ca160",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.208",
+      "hashType": "SHA256",
+      "hashValue": "1044235302c26780fcb05357b3b3b7a47f643a56847030192d474eab414bd8f8",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.209",
+      "hashType": "SHA256",
+      "hashValue": "3eb98d24680f1f213513e9a30fa4745194029e6bb40e5be2ff089617ffb742ce",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.210",
+      "hashType": "SHA256",
+      "hashValue": "34978b50b8e37b6a10249aeb7d15e0acd229b074b2ee34a28666ef3a74b3eef4",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.211",
+      "hashType": "SHA256",
+      "hashValue": "b07e7945dd3a215aa95fac3d27fbfbf041d21e26af0ce36cba9d33f1747247b5",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.212",
+      "hashType": "SHA256",
+      "hashValue": "28eb4afd332870c65c2d42787929bd3baf46c72a13921882fd872e5c642f3b34",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.213",
+      "hashType": "SHA256",
+      "hashValue": "17a6ebfd042f7fbf61982dfc8daac2a1ae22ddccfbd95cef6c06ddb93023fc34",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.214",
+      "hashType": "SHA256",
+      "hashValue": "82e8a225fcb41eae5eddacedbcf84b282b8b5991313d03d3612cabd9b1f29f7a",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.215",
+      "hashType": "SHA256",
+      "hashValue": "59d56e9953ff368b64e2151f79d84f488d70d067770778361ca91878ca8a65d3",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.216",
+      "hashType": "SHA256",
+      "hashValue": "f3e6b48d90d401e70a1f1640bce55b004ffd4b79162addd6ba2be8ecd76c426c",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.217",
+      "hashType": "SHA256",
+      "hashValue": "a1c9167b123e854b3d87d9f3cbe7fb3243d4a73ee854e57dc3192366152022f8",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.218",
+      "hashType": "SHA256",
+      "hashValue": "aea61ffbf22d21e35e52d92bf400cfb82bb20c268e6ccd89efeb3e77a52e3fd6",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.219",
+      "hashType": "SHA256",
+      "hashValue": "6e6d045dada65d3c6ea4f5073eab8222104aadcbdc9e621423bd40ac75444ede",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.220",
+      "hashType": "SHA256",
+      "hashValue": "b08797d89eb710b52935bb38f3b399cb0037112403a8858857390d3f39709d1b",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.221",
+      "hashType": "SHA256",
+      "hashValue": "f41cbe88594da4abbb41453c18dc37ad04eada945c66126d86e5b8185938acc6",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.222",
+      "hashType": "SHA256",
+      "hashValue": "15cbc549728e8132c6e1aa4cc7b01bd8c40f0ffd59ec58646b4111bb936480ac",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.223",
+      "hashType": "SHA256",
+      "hashValue": "72859034be89c69518b5f35494896ca3ccfbdf59f0bf4858a81a8dec35b828ea",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.224",
+      "hashType": "SHA256",
+      "hashValue": "3ede8abf6d1905ea0a322b6652637840901bb597afcd7a22d2c41e69f75786c2",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.225",
+      "hashType": "SHA256",
+      "hashValue": "293b9af2ced3bab34dbb2403c8cc33b9d9f8ea4c9bccec396f14e07f44bc20f7",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.226",
+      "hashType": "SHA256",
+      "hashValue": "09e7c21794a6b9dfc500962c80c40a7c81a7ecdb47e1f155ae1bccd974af5de3",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.227",
+      "hashType": "SHA256",
+      "hashValue": "d6b3061f4c8c8ea2bce3ff8c96cca16dc1fad40b5a003688f56290ba8023ed8e",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.228",
+      "hashType": "SHA256",
+      "hashValue": "1183958bbb79724215c41c7b6d0f1bd591fb89aab461fd449bbbc550149299cc",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.229",
+      "hashType": "SHA256",
+      "hashValue": "e4c75fff3ec605085b8e63d0766e2afda629f57ca6d41a1d318c7f37eca21817",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.230",
+      "hashType": "SHA256",
+      "hashValue": "4ba53f9b8e8decf8b7d395cab0bbf2e6589915ca409ac4978b13088f0ec41770",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.231",
+      "hashType": "SHA256",
+      "hashValue": "255fd11c0cc6908fb15b1322207cebced86f2b410623c6cd0bbc97db40f6b15a",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.232",
+      "hashType": "SHA256",
+      "hashValue": "702aa27ab74e717203e31d697f62d6eaa3a937970f24ff406f8d276759ff270f",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.233",
+      "hashType": "SHA256",
+      "hashValue": "43b7974ac1cbdb6d5eb22e83125cd9ddfa9b3ffe35b62d3044c60ccfae5dbe32",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.234",
+      "hashType": "SHA256",
+      "hashValue": "3117a517cb14dccaabc5906148d66b799956967a66234507226b78a1814b9a0a",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.235",
+      "hashType": "SHA256",
+      "hashValue": "e3127ad2d95ff31e87752d28fa895939bac5aebcadd142287cae7b74a9f841d3",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.236",
+      "hashType": "SHA256",
+      "hashValue": "4b00054b17be551e7c7aa2c948cdf3263691dc9beea96b25614802b77dc350e1",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.237",
+      "hashType": "SHA256",
+      "hashValue": "e3a21a6b73edfb1d70ebfad2dfb5104e88fd3e9ad5a5df1a759571a4a69d28e7",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.238",
+      "hashType": "SHA256",
+      "hashValue": "872ac1f762aae1cd39626179705a3c46572860378c48a3b3afe647f93ba96562",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.239",
+      "hashType": "SHA256",
+      "hashValue": "7eca2fb87e83b1d1e6852767a77cbb9268fc24ae91b41b011c6e24e1885b3935",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.240",
+      "hashType": "SHA256",
+      "hashValue": "103444d052316cd182bf43e56764b1feadcb5acd3fbd358beb766205be2b559b",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.241",
+      "hashType": "SHA256",
+      "hashValue": "8a9399009e42d7a960a76bc87a472851fd10d4f8555bc1571957e2b1ed3e5fba",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.242",
+      "hashType": "SHA256",
+      "hashValue": "06551074c84ba9a0ba43901062490375f14fd55bdb412de2cb87030230d0993f",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.243",
+      "hashType": "SHA256",
+      "hashValue": "4a66a8f05269ec9781b720c6adda492407d87e2e5455c93bb090c9e6363afd0f",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.244",
+      "hashType": "SHA256",
+      "hashValue": "e9b06a6bac1efea2c577e0cd66c06cb3fcc8902113e46ee04fa86e91a07677ea",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.245",
+      "hashType": "SHA256",
+      "hashValue": "e014011dce6ff18c5eeaa40eb13adf8d0084a9bfa16e4f97f255f13a54047214",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.246",
+      "hashType": "SHA256",
+      "hashValue": "a110b2c680b481605d44ccefb1c0ffb4cae4d6225ef2b6a9611416bb06d441be",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.247",
+      "hashType": "SHA256",
+      "hashValue": "7cbabde9ea45a3d138dfbf61cd0d25bd88b7d7c23a63a318a50769f752b7bcc9",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.248",
+      "hashType": "SHA256",
+      "hashValue": "19abf9259881d1741e0c404233e9ac5bead04109ef141ef1d852705e931899bd",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.249",
+      "hashType": "SHA256",
+      "hashValue": "355f85128c48c7f986660ed51a1e9ab05c4aa6403b43b09067c326e40dc0ae8d",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.250",
+      "hashType": "SHA256",
+      "hashValue": "6ea7d24d3392ef0ecc2ebf5a4a0215f489e26ac1d5a23cba4f45259e5ed7b89c",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.251",
+      "hashType": "SHA256",
+      "hashValue": "14f4e34ef9eee30aa24d50399c6fdfd612162b4814db2c595c65206dd81f0736",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.252",
+      "hashType": "SHA256",
+      "hashValue": "5a5653415b9d69f21fedbfdcf80eec00446fabf8d8eb2a7b0048fee1a31fb23f",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.253",
+      "hashType": "SHA256",
+      "hashValue": "b4ce8bc81a6bce78f9bcaac4cd8e7fb03cbaf498f88b6f224e37aa1dcac57821",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.254",
+      "hashType": "SHA256",
+      "hashValue": "5c7967826334c350952cfbc2cbc915bf1264fdb5421f6ba4fafa0568eb693436",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.255",
+      "hashType": "SHA256",
+      "hashValue": "cd29d398330da2ef86413020c05c4c8530945bd9f832b1972c3db0359f7a2c32",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.256",
+      "hashType": "SHA256",
+      "hashValue": "e9cccd6bd067931674a4255f94cb7842bdbb1262dfa0e7c9ab8c8c0a0643391c",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.257",
+      "hashType": "SHA256",
+      "hashValue": "7668023990ca78faf0a08310e69a88c4da363732f89b7af1655842deaf609164",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.258",
+      "hashType": "SHA256",
+      "hashValue": "3fb5b163faeaf29c245f787cde1f661334065e41fa6b8dc23160deef5b1f47a0",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.259",
+      "hashType": "SHA256",
+      "hashValue": "d9b92a5a90d426579d184e01f6975bb9d247d095c6bf61298391d62eeee27ef0",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
+    },
+    {
+      "signatureName": "Trojan.Banker.IranianBanking.Zimperium.260",
+      "hashType": "SHA256",
+      "hashValue": "c868724e1812769940c03b7e66772f9f06cd357645bdd85671a0b05979ff25c3",
+      "fileSize": 0,
+      "fileType": "APK",
+      "severity": 5,
+      "family": "iranianbanking",
+      "description": "Iranian banking malware IOC (Zimperium research)"
     }
   ],
   "addClamAVHashDatabase": {
     "url": "https://raw.githubusercontent.com/Aethel-Guard/embergard-feeds/main/clamav-md5-hashes.json",
     "hashType": "MD5",
     "count": 369659,
-    "description": "Full ClamAV MD5 hash database — 369,659 hashes for Win/Doc/Pdf/Xls/Html/Archive/Email/Swf/Img/Js"
+    "description": "Full ClamAV MD5 hash database \u2014 369,659 hashes for Win/Doc/Pdf/Xls/Html/Archive/Email/Swf/Img/Js"
   }
 }
